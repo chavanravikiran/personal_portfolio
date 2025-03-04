@@ -1,0 +1,126 @@
+{
+  "Header.Item1": "About Me",
+  "Header.Item2": "Experience",
+  "Header.Item3": "Projects",
+  "Header.Item4": "Contact",
+  "Header.cvBtn": "Resume",
+  "Header.cvName": "CV_Jose_Hernandez_Spanish.pdf",
+
+  "Banner.Pretitle": "Hello! My name is",
+  "Banner.Description": "I have <span class='underline'>3 years of experience</span> developing systems, interfaces, and technological solutions to make the web a better place. I am dedicated to writing and refactoring clean, reusable, and scalable code in <span class='underline'>Spring Boot</span> and <span class='underline'>Angular</span> , applying good practices and development standards.",
+  "Banner.ActionBtn": "Say Hi",
+
+  "AboutMe.Title": "About Me",
+  "AboutMe.Paragraphs": [
+    "In <span class='underline'>3 years of experience</span> I have covered many roles: <span class='underline'>Backend Developer</span>, <span class='underline'>Frontend Developer</span>, and <span class='underline'>Database</span>. I love contributing my knowledge to create new things that help solve problems.",
+    "My capabilities also include implementing system improvements, optimizing sites, standardizing patterns, and suggesting and executing ideas that add value to the project I am working on.",
+    "I also program things for my personal use, whether for hobby or utility.",
+    "Some of the technologies I have trained and worked with include (but are not limited to):"
+  ],
+
+  "Experience.Title": "Experience",
+  "Experience.Jobs": [
+    {
+      "Tab": "Probity Soft Pvt Ltd.",
+      "Title": "Fullstack Developer",
+      "Date": "May 2022 - Till Date",
+      "Description": [
+        "Full Stack Development (Spring Boot + Angular)",
+        "Design, develop, and maintain RESTful APIs and microservices.",
+        "Database Management (Oracle, PostgreSQL)",
+        "CI / CD (SVN,GitHub,Gitea)",
+        "Develop responsive and user-friendly UI components using Angular",
+        "The ideal candidate will be responsible for designing, developing, and maintaining high-performance, scalable web applications",
+        "Write complex SQL queries, stored procedures, and triggers."
+      ]
+    },
+    {
+      "Tab": "Star Engg.Pvt Ltd.",
+      "Title": "Purchase",
+      "Date": "May 2020-May 2022",
+      "Description": [
+        "Purchace Consumable,Plastic Product",
+        "Strategic Sourcing & Procurement",
+        "Vendor Negotiation & Management",
+        "Cost Reduction & Budget Control",
+        "Procurement Compliance & Risk Management",
+        "Supply Chain & Inventory Management",
+        "SAP/ERP Procurement Systems"
+      ]
+    }
+  ],
+
+  "FeatureProjects.Title": "My Projects",
+  "FeatureProjects.Label": "Highlighted Project",
+  "FeatureProjects.Projects": [
+    {
+      "Title": "IHLMS 2.0 : MHADA",
+      "Description": "Implemented Spring Boot and Java to optimize backend processes, resulting in faster response times and improved overall system efficiency.Implemented Daily Reports and sent to respective stakeholders.Data migration Oracle to PostgreSql.Document Approve or Reject using ML.Create Dynamic Report Add in System and Generate Excel report with respective filters.",
+      "imgs": [
+        "assets/images/ihlms2.0/Dashboard_Report.png",
+        "assets/images/ihlms2.0/Extend_Acceptance_Functionality.png",
+        "assets/images/ihlms2.0/Query_Executer_List.png",
+        "assets/images/ihlms2.0/Reports1.png",
+        "assets/images/ihlms2.0/Revert_Functionallity.png",
+        "assets/images/ihlms2.0/Grivence.png"
+      ],
+      "Technologies": ["Spring Boot", "Angular", "Oracel", "Angular Material"]
+    },
+    {
+      "Title": "PMRDA Post Lottery",
+      "Description": "Architected the backend infrastructure using the <span class='underline'>Spring MVC framework</span>, emphasizing scalability and robust functionality to meet the project's requirements.Implemented a PostgreSQL database solution for effective data management, complemented by the utilization of JBOSS server for hosting, ensuring reliable and optimal system performance.",
+      "imgs": [
+        "assets/images/PMRDAPostLottery/PMRDA_Post_Lottery1.png"
+      ],
+      "Technologies": ["Spring MVC", "JSP", "PostgreSQL", "JQuery"]
+    },
+    {
+      "Title": "Demand And Assessement",
+      "Description": "The Demand and Assessment Survey System is an interactive web-based application designed to collect survey responses from citizens using a user-friendly interface integrated with Google Maps. The system enables government agencies, municipalities, or private organizations to conduct large-scale surveys, gather insights, and make data-driven decisions.This platform allows citizens to answer predefined survey questions related to infrastructure development, public services, social initiatives, or community projects. Based on their responses, authorities can analyze demand trends and prioritize initiatives accordingly.",
+      "imgs": [
+        "assets/images/demandAndAssessement/Demand_And_Assessment_Screen1.png",
+        "assets/images/demandAndAssessement/Demand_And_Assessment_Screen2.png",
+        "assets/images/demandAndAssessement/Demand_And_Assessment_Screen3.png",
+        "assets/images/demandAndAssessement/Demand_And_Assessment_Screen4.png",
+        "assets/images/demandAndAssessement/Demand_And_Assessment_Screen5.png",
+        "assets/images/demandAndAssessement/Demand_And_Assessment_Screen6.png"
+      ],
+      "Technologies": ["Jhipster", "Angular", "PostgreSQL", "Prime Flex", "Liquibase"]
+    },
+    {
+      "Title": "Satara And Parijat FCFS",
+      "Description": "Developed and implemented a simplified software program automating every step of the housing FCFS process.Integrated PostgreSQL for secure and efficient data management, ensuring data confidentiality. Enhanced system performance by upgrading interfaces and implementing interest calculation functionality for delayed payments.",
+      "imgs": [
+        "assets/images/sataraAndParijat/sataraAndParijatFCFS1.png",
+        "assets/images/sataraAndParijat/sataraAndParijatFCFS2.png",
+        "assets/images/sataraAndParijat/sataraAndParijatFCFS3.png"
+      ],
+      "Technologies": ["Spring MVC", "JSP", "PostgreSQL", "JQuery"]
+    }
+  ],
+
+  "OtherProjects.Title": "More Projects",
+  "OtherProjects.Projects": [
+    {
+      "Title": "Dynamic Website",
+      "Description": "We have to create Dynamic Website using Spring Boot ,Angular V18 and PostgreSQl 9.3.For Every Orinazation need Website for Advetizing and grow up.",
+      "imgs": ["assets/images/dynamic_Website1.png"],
+      "ghLink": "https://github.com/chavanravikiran/dynamicWebsitePortal",
+      "demoLink": "https://dynamic-web-site-front-end.vercel.app",
+      "Technologies": ["Angular", "Spring Boot", "AWS", "Angular animations", "PostgreSQL"]
+    },
+    {
+      "Title": "Local Service Finder App",
+      "Description": "Provide Local Service to near by citizen",
+      "imgs": ["assets/images/localServiceFinder.png"],
+      "ghLink": "https://github.com/chavanravikiran/localServiceFinder-app-frontend",
+      "demoLink": "",
+      "Technologies": ["Angular", "Spring Boot", "AWS", "Angular animations", "PostgreSQL"]
+    }
+  ],
+
+  "Contact.Pretitle": "And... Now?",
+  "Contact.Title": "Say Hi!",
+  "Contact.Content": "I will be glad to hear from you if you want to discuss new opportunities. Write to me, and I will respond as soon as I see your message.",
+  "Contact.Btn": "Contact Me"
+}
