@@ -1,270 +1,126 @@
 {
-  "Header.Item1": "Acerca de mi",
-  "Header.Item2": "Experiencia",
-  "Header.Item3": "Proyectos",
-  "Header.Item4": "Contacto",
-  "Header.cvBtn": "Curriculum",
-  "Header.cvName": "CV_Jose_Hernandez_Espanol.pdf",
+  "Header.Item1": "मेरे बारे में",
+  "Header.Item2": "अनुभव",
+  "Header.Item3": "प्रोजेक्ट्स",
+  "Header.Item4": "संपर्क",
+  "Header.cvBtn": "रिज़्यूमे",
+  "Header.cvName": "ravikiran_chavan_CV.pdf",
 
-  "Banner.Pretitle": "Hola! Mi nombre es",
-  "Banner.Description": "Tengo <span class='underline'>8 años de experiencia</span> desarrollando sistemas, interfaces, bots y soluciones tecnológicas para hacer de la web un lugar mejor. Me dedico a escribir y refactorizar código limpio, reutilizable y escalable en <span class='underline'>Angular</span> y  <span class='underline'>Laravel</span> aplicando buenas practicas y estandares de desarrollo.",
-  "Banner.ActionBtn": "Saludame",
+  "Banner.Pretitle": "नमस्ते! मेरा नाम है",
+  "Banner.Description": "मुझे <span class='underline'>3 वर्षों का अनुभव</span> है सिस्टम, इंटरफेस और तकनीकी समाधान विकसित करने में, ताकि वेब को एक बेहतर स्थान बनाया जा सके। मैं <span class='underline'>Spring Boot</span> और <span class='underline'>Angular</span> में स्वच्छ, पुन: प्रयोज्य और स्केलेबल कोड लिखने और पुन: संरचित करने के लिए समर्पित हूं, अच्छे अभ्यासों और विकास मानकों को लागू करता हूं।",
+  "Banner.ActionBtn": "नमस्ते कहें",
 
-  "AboutMe.Title": "Acerca de mi",
+  "AboutMe.Title": "मेरे बारे में",
   "AboutMe.Paragraphs": [
-    "En <span class='underline'>8 años de experiencia </span> he cubierto muchos roles: <span class='underline'>Analista de sistemas</span>, <span class='underline'>backend developer</span>, <span class='underline'>frontend developer</span> y <span class='underline'>lider técnico</span>. Me encanta aportar mis conocimientos para crear cosas nuevas que ayuden a resolver problemas.",
-    "Mis capacidades también incluyen implementar mejoras en sistemas, optimizar sitios, estandarizar patrones y sugerir y ejecutar ideas que añadan valor al proyecto en el que este trabajando.",
-    "Tambien programo cosas para mi uso personal, bien sea por hobbie o por utilidad.",
-    "Algunas de las tecnologías en las que me he capacitado y trabajado incluyen (pero no se limitan) a:"
+    "मेरे <span class='underline'>3 वर्षों के अनुभव</span> में, मैंने कई भूमिकाएँ निभाई हैं: <span class='underline'>बैकएंड डेवलपर</span>, <span class='underline'>फ्रंटएंड डेवलपर</span>, और <span class='underline'>डेटाबेस</span> विशेषज्ञ। मुझे नई चीजें बनाने में योगदान करना पसंद है जो समस्याओं को हल करने में मदद करती हैं।",
+    "मेरी क्षमताओं में सिस्टम सुधार लागू करना, साइटों का अनुकूलन करना, मानकों को मानकीकृत करना, और ऐसे विचारों का सुझाव देना और निष्पादित करना शामिल है जो मेरे द्वारा काम किए जा रहे प्रोजेक्ट में मूल्य जोड़ते हैं।",
+    "मैं अपने व्यक्तिगत उपयोग के लिए भी चीजें प्रोग्राम करता हूं, चाहे वह शौक के लिए हो या उपयोगिता के लिए।",
+    "कुछ तकनीकों जिनमें मैंने प्रशिक्षण प्राप्त किया है और काम किया है उनमें शामिल हैं (लेकिन इन्हीं तक सीमित नहीं हैं):"
   ],
 
-  "Experience.Title": "Experiencia",
+  "Experience.Title": "अनुभव",
   "Experience.Jobs": [
     {
-      "Tab": "Global",
-      "Title": "Fullstack developer",
-      "Date": "Mayo 2023",
+      "Tab": "प्रोबिटी सॉफ्ट प्राइवेट लिमिटेड",
+      "Title": "फुलस्टैक डेवलपर",
+      "Date": "मई 2022 - वर्तमान",
       "Description": [
-        "Lider en la toma de desiciones tecnicas",
-        "Contratación de talento tecnico para la empresa",
-        "Lider de quipo del departamento de tecnología",
-        "Creación y mantenimiento de una plataforma de gestion de procesos internos para ventas de cursos",
-        "Programación de funciones y plugins personalizados para personalizacion de una plataforma de wordpress",
-        "Implementación de integración continua y respaldos diarios.",
-        "Reuniones de planificación en informes."
+        "फुल स्टैक डेवलपमेंट (Spring Boot + Angular)",
+        "RESTful API और माइक्रोसर्विसेज को डिज़ाइन, विकसित और बनाए रखें।",
+        "डेटाबेस प्रबंधन (Oracle, PostgreSQL)",
+        "CI / CD (SVN, GitHub, Gitea)",
+        "Angular का उपयोग करके उत्तरदायी और उपयोगकर्ता-अनुकूल UI घटकों का विकास।",
+        "उच्च-प्रदर्शन, स्केलेबल वेब एप्लिकेशन डिज़ाइनिंग, विकसित करने और बनाए रखने के लिए जिम्मेदार।",
+        "जटिल SQL क्वेरी, स्टोर्ड प्रोसीजर और ट्रिगर लिखें।"
       ]
     },
     {
-      "Tab": "Proyex",
-      "Title": "Fullstack developer",
-      "Date": "Diciembre 2019 - Mayo 2023",
+      "Tab": "स्टार इंजीनियरिंग प्राइवेट लिमिटेड",
+      "Title": "खरीद",
+      "Date": "मई 2020 - मई 2022",
       "Description": [
-        "Creación y mantenimiento de una plataforma de monitoreo con gráficos en Wordpress.",
-        "Programación funcional en plantillas y plugins para añadir las características necesarias de monitoreo.",
-        "Implementación de integración continua y respaldos diarios.",
-        "Creación y mantenimiento de una segunda plataforma de Monitoreo Realizada en Angular, Angular Material, Laravel, Mysql, RxJS, Sass con gráficos (configurables), sistema de alarmas, y gestión de usuarios y configuración de parámetros generales.",
-        "Reuniones de planificación en informes."
-      ]
-    },
-    {
-      "Tab": "Freelancer",
-      "Title": "Independiente",
-      "Date": "Mayo 2016 - Actualidad",
-      "Description": [
-        "Implementacion de mejoras continuas, trabajando en frontend y backend.",
-        "Creacion de plataformas con Angular, Laravel, Wordpress programadas con paradigmas de programación funcional, reactiva y orientada a objetos.",
-        "Automatizacion de procesos con estructuras de datos.",
-        "Maquetacion de diseños con SASS, Bootstrap, Materialize, Bulma, etc."
-      ]
-    },
-    {
-      "Tab": "Moebius",
-      "Title": "FullStack developer",
-      "Date": "Julio 2017 - Octubre 2018",
-      "Description": [
-        "Liderando un equipo de 4 personas en el desarrollo de una plataforma de gestión de Datos de turismo hecha en Angular, Laravel y MySQL. ",
-        "Implementacion de CI/CD en Azure. Refactorizando y optimizando tiempos de carga de la aplicación.",
-        "Codificación de peticiones a API con RxJS.",
-        "Crecion de modulos con formularios reactivos complejos",
-        "Redacción de informes semanales acerca de metas y planes."
-      ]
-    },
-    {
-      "Tab": "TechLatam",
-      "Title": "Frontend developer",
-      "Date": "Febrero 2016 - Mayo 2017",
-      "Description": [
-        "Creación de plantillas de wordpress con ACF, programación funcional en Javascript / jQuery, estilos en SASS",
-        "integración de mejoras en diseño y tiempos de carga de plantillas.",
-        "Comunicación efectiva con equipo de diseño, trabajando con Avocode / Figma"
-      ]
-    },
-    {
-      "Tab": "CANTV",
-      "Title": "Analista de sistema",
-      "Date": "Noviembre 2015 - Diciembre 2016",
-      "Description": [
-        "Programacion de nuevas funcionalidades para una plataforma de gestión de empleados existente realizada en Angular y ExpressJS",
-        "Realizar refactorización de código antiguo. Asegurar la compatibilidad de cada dependencia en cada actualización, junto también con la actualización regular de Angular."
-      ]
-    },
-    {
-      "Tab": "IEP",
-      "Title": "Profesor de Inglés",
-      "Date": "Enero 2015 - Julio 2015",
-      "Description": [
-        "Enseñando ingles a nivel básico a una matrícula de más de 200 alumnos."
+        "उपभोग्य सामग्री, प्लास्टिक उत्पादों की खरीद",
+        "रणनीतिक सोर्सिंग और खरीद",
+        "विक्रेता वार्ता और प्रबंधन",
+        "लागत में कमी और बजट नियंत्रण",
+        "खरीद अनुपालन और जोखिम प्रबंधन",
+        "सप्लाई चेन और इन्वेंटरी प्रबंधन",
+        "SAP/ERP खरीद प्रणाली"
       ]
     }
   ],
 
-  "FeatureProjects.Title": "Mis proyectos",
-  "FeatureProjects.Label": "Proyecto Destacado",
+  "FeatureProjects.Title": "मेरे प्रोजेक्ट्स",
+  "FeatureProjects.Label": "मुख्य प्रोजेक्ट",
   "FeatureProjects.Projects": [
     {
-      "Title": "Gisselle",
-      "Description": "Aplicacion web para gestion interna de empresa que abarca departamento de ventas, cobranza y seguimiento muy extensa y compleja con diversas funciones hecha en <span class='underline'>Angular</span> y <span class='underline'>Laravel</span>. Trabaja con <span class='underline'>websockets</span>, <span class='underline'>schedules</span>, <span class='underline'>jobs de laravel</span>, integraciones con wordpress, zadarma, liveconnect, etc.",
+      "Title": "IHLMS 2.0 : MHADA",
+      "Description": "Spring Boot और Java को लागू करके बैकएंड प्रक्रियाओं को अनुकूलित किया, जिससे प्रतिक्रिया समय तेज हुआ और कुल सिस्टम दक्षता में सुधार हुआ। दैनिक रिपोर्ट लागू की और संबंधित हितधारकों को भेजी। डेटा माइग्रेशन Oracle से PostgreSQL में किया। दस्तावेज़ स्वीकृत या अस्वीकृत करने के लिए मशीन लर्निंग का उपयोग किया। सिस्टम में गतिशील रिपोर्ट जोड़ें और संबंधित फ़िल्टर के साथ Excel रिपोर्ट उत्पन्न करें।",
       "imgs": [
-        "assets/images/gisselle/Captura de pantalla 2024-05-19 1009582.png",
-        "assets/images/gisselle/Captura de pantalla 2024-05-19 115514.png",
-        "assets/images/gisselle/Captura de pantalla 2024-05-19 115702.png",
-        "assets/images/gisselle/Captura de pantalla 2024-05-19 115829.png",
-        "assets/images/gisselle/Captura de pantalla 2024-05-19 1009582.png"
+        "assets/images/ihlms2.0/Dashboard_Report.png",
+        "assets/images/ihlms2.0/Extend_Acceptance_Functionality.png",
+        "assets/images/ihlms2.0/Query_Executer_List.png",
+        "assets/images/ihlms2.0/Reports1.png",
+        "assets/images/ihlms2.0/Revert_Functionallity.png",
+        "assets/images/ihlms2.0/Grivence.png"
       ],
-      "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
-    },
-
-    {
-      "Title": "Emelteciot",
-      "Description": "Aplicación de monitoreo para consulta de datos, hecha con <span class='underline'>Angular</span> y <span class='underline'>Laravel</span>. Se aplica la libreria de graficos <span class='underline'>chart.js</span>",
-      "imgs": [
-        "assets/images/proyex2/Captura de pantalla 2024-07-28 102852.png",
-        "assets/images/proyex2/849c117f-bed9-4406-9c13-c8669f655acc.png",
-        "assets/images/proyex2/62cdf90c-6196-4a6e-b639-8919cda4f749.png",
-        "assets/images/proyex2/8c919208-d6a8-48f4-890d-4817323b6923.png",
-        "assets/images/proyex2/8c919208-d6a8-48f4-890d-4817323b6923 (1).png"
-      ],
-      "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
-    },
-
-
-
-
-    {
-      "Title": "Vas Aviation",
-      "Description": "Aplicación de seguimiento de solicitudes para combustible de aeronaves. Cuenta con <span class='underline'>modulo de correo electronico</span>, <span class='underline'>notificaciones en tiempo real</span>, <span class='underline'>manejo de archivos CSV para importación de datos</span>, <span class='underline'>cotizaciones de precio</span>. Etc. Desarrollada en <span class='underline'>Angular</span> y <span class='underline'>laravel</span>",
-      "imgs": [
-        "assets/images/vasaviation/capture0.png",
-        "assets/images/vasaviation/capture1.png",
-        "assets/images/vasaviation/capture2.png",
-        "assets/images/vasaviation/capture3.png",
-        "assets/images/vasaviation/capture4.png",
-        "assets/images/vasaviation/capture5.png"
-      ],
-      "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
-    },
-
-    {
-      "Title": "GlobalJobs",
-      "Description": "Plataforma e-learning desarrollada con wordpress. Diseño totalmente presonalizado, con plugins desarrollados desde cero. Cuenta con modulo de pagos personalizados, aula virtual, dashboard de seguimiento de cursos",
-      "imgs": [
-        "assets/images/globaljobs/capture1.png",
-        "assets/images/globaljobs/capture2.png",
-        "assets/images/globaljobs/capture3.png",
-        "assets/images/globaljobs/capture4.png",
-        "assets/images/globaljobs/capture5.png",
-        "assets/images/globaljobs/capture6.png"
-      ],
-      "Technologies": ["Wordpress", "Wordpress Codex", "PHP", "Mysql"]
-    },
-
-    {
-      "Title": "GlobalJobs",
-      "Description": "Plataforma e-commerce de productos de tecnologia. Desarrollada con Wordpress e implementando un sistema de envios para los productos. Cuenta con reporte de ventas mediante programacion personalizada",
-      "imgs": [
-        "assets/images/mbelectronics/capture0.png",
-        "assets/images/mbelectronics/capture1.png",
-        "assets/images/mbelectronics/capture2.png"
-      ],
-      "Technologies": ["Wordpress", "Elementor", "Woocommerce", "Wordpress Codex", "PHP", "Mysql"]
-    },
-
-
-    {
-      "Title": "Agrourbana",
-      "Description": "Aplicación de monitoreo realizada desde cero con módulo de auth, <span class='underline'>gráficos configurables</span>, <span class='underline'>alarmas configurables</span> y <span class='underline'>gestión de usuarios</span>. Cuenta también con lógica de formularios reactvios para la configuración de parámetros.",
-      "imgs": [
-        "assets/images/agrourbana/agrourbana1.png",
-        "assets/images/agrourbana/agrourbana2.png",
-        "assets/images/agrourbana/agrourbana3.png",
-        "assets/images/agrourbana/agrourbana4.png",
-        "assets/images/agrourbana/agrourbana5.png"
-      ],
-      "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+      "Technologies": ["Spring Boot", "Angular", "Oracle", "Angular Material"]
     },
     {
-      "Title": "Tu super plan",
-      "Description": "Cotizador de planes de salud que cuenta con un buscador con el que se hacen consultas avanzadas. Los planes son mostrados en base a la edad, ingreso mensual y ubicacion del usuario. Cuenta con <span class='underline'>chat en linea</span>, <span class='underline'>formulario de contacto</span>, <span class='underline'>sistema de notificaiones por whatsapp y correo</span>, <span class='underline'>auth</span>, y <span class='underline'>gestion de informacion internet a travez del rol de administrador</span>.",
+      "Title": "पीएमआरडीए पोस्ट लॉटरी",
+      "Description": "<span class='underline'>स्प्रिंग एमवीसी फ्रेमवर्क</span> का उपयोग करके बैकएंड इंफ्रास्ट्रक्चर को डिज़ाइन किया, जिससे परियोजना की आवश्यकताओं को पूरा करने के लिए स्केलेबिलिटी और मजबूत कार्यक्षमता पर जोर दिया गया। प्रभावी डेटा प्रबंधन के लिए <span class='underline'>PostgreSQL डेटाबेस</span> समाधान को लागू किया गया, जिसे होस्टिंग के लिए <span class='underline'>JBOSS सर्वर</span> का उपयोग करके पूरा किया गया, जिससे विश्वसनीय और इष्टतम सिस्टम प्रदर्शन सुनिश्चित किया गया।",
       "imgs": [
-        "assets/images/tusuperplan/tusuperplan1.png",
-        "assets/images/tusuperplan/tusuperplan2.png",
-        "assets/images/tusuperplan/tusuperplan3.png",
-        "assets/images/tusuperplan/tusuperplan4.png",
-        "assets/images/tusuperplan/tusuperplan5.png"
+        "assets/images/PMRDAPostLottery/PMRDA_Post_Lottery1.png"
       ],
-      "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+      "Technologies": ["स्प्रिंग एमवीसी", "JSP", "PostgreSQL", "JQuery"]
     },
     {
-      "Title": "Proyexiot",
-      "Description": "Plataforma de monitoreo de datos pertenecientes a pozos de agua, remolcadores y diversas instalaciones realizada desde cero con módulo de auth, <span class='underline'>gráficos configurables</span>, <span class='underline'>alarmas configurables</span>, <span class='underline'>gestión de usuarios</span> y <span class='underline'>geolocalizacion con openlayers.</span> Cuenta también con lógica de formularios reactivos para la configuración de parámetros.",
+      "Title": "डिमांड और असेसमेंट",
+      "Description": "डिमांड और असेसमेंट सर्वे सिस्टम एक इंटरैक्टिव वेब-आधारित एप्लिकेशन है, जिसे नागरिकों से सर्वेक्षण प्रतिक्रियाएँ एकत्र करने के लिए डिज़ाइन किया गया है, जिसमें एक उपयोगकर्ता-अनुकूल इंटरफ़ेस <span class='underline'>गूगल मैप्स</span> के साथ एकीकृत है। यह प्रणाली सरकारी एजेंसियों, नगर पालिकाओं, या निजी संगठनों को बड़े पैमाने पर सर्वेक्षण करने, अंतर्दृष्टि एकत्र करने और डेटा-संचालित निर्णय लेने में सक्षम बनाती है। यह प्लेटफ़ॉर्म नागरिकों को पूर्व-निर्धारित सर्वेक्षण प्रश्नों का उत्तर देने की अनुमति देता है, जो बुनियादी ढांचे के विकास, सार्वजनिक सेवाओं, सामाजिक पहलों या सामुदायिक परियोजनाओं से संबंधित होते हैं। उनकी प्रतिक्रियाओं के आधार पर, अधिकारी मांग प्रवृत्तियों का विश्लेषण कर सकते हैं और तदनुसार पहलों को प्राथमिकता दे सकते हैं।",
       "imgs": [
-        "assets/images/proyex/proyex1.png",
-        "assets/images/proyex/proyex2.png",
-        "assets/images/proyex/proyex3.png",
-        "assets/images/proyex/proyex4.png",
-        "assets/images/proyex/proyex5.png",
-        "assets/images/proyex/proyex6.png",
-        "assets/images/proyex/proyex7.png",
-        "assets/images/proyex/proyex8.png",
-        "assets/images/proyex/proyex9.png",
-        "assets/images/proyex/proyex10.png",
-        "assets/images/proyex/proyex11.png",
-        "assets/images/proyex/proyex12.png"
+        "assets/images/demandAndAssessement/Demand_And_Assessment_Screen1.png",
+        "assets/images/demandAndAssessement/Demand_And_Assessment_Screen2.png",
+        "assets/images/demandAndAssessement/Demand_And_Assessment_Screen3.png",
+        "assets/images/demandAndAssessement/Demand_And_Assessment_Screen4.png",
+        "assets/images/demandAndAssessement/Demand_And_Assessment_Screen5.png",
+        "assets/images/demandAndAssessement/Demand_And_Assessment_Screen6.png"
       ],
-      "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+      "Technologies": ["Jhipster", "Angular", "PostgreSQL", "Prime Flex", "Liquibase"]
+    },
+    {
+      "Title": "सातारा और पारिजात एफसीएफएस",
+      "Description": "आवास एफसीएफएस प्रक्रिया के प्रत्येक चरण को स्वचालित करने वाला एक सरल सॉफ़्टवेयर प्रोग्राम विकसित और कार्यान्वित किया। सुरक्षित और कुशल डेटा प्रबंधन के लिए <span class='underline'>PostgreSQL</span> को एकीकृत किया, जिससे डेटा गोपनीयता सुनिश्चित की जा सके। इंटरफेस को अपग्रेड करके और विलंबित भुगतानों के लिए ब्याज गणना कार्यक्षमता को लागू करके सिस्टम प्रदर्शन को बढ़ाया।",
+      "imgs": [
+        "assets/images/sataraAndParijat/sataraAndParijatFCFS1.png",
+        "assets/images/sataraAndParijat/sataraAndParijatFCFS2.png",
+        "assets/images/sataraAndParijat/sataraAndParijatFCFS3.png"
+      ],
+      "Technologies": ["स्प्रिंग एमवीसी", "JSP", "PostgreSQL", "JQuery"]
     }
   ],
 
-  "OtherProjects.Title": "Mas proyectos",
+  "OtherProjects.Title": "अधिक प्रोजेक्ट्स",
   "OtherProjects.Projects": [
     {
-      "Title": "Hands game",
-      "Description": "Juego de piedra papel y tijeras extendido. Un proyecto personal desarrollado en angular en el que juegas al azar contra la máquina. Cuenta con la utilización de servicios, interfaces y componentes.",
-      "imgs": ["assets/images/hands-game.png"],
-      "ghLink": "https://github.com/andresjosehr/hands-game",
-      "demoLink": "https://proyectos.andresjosehr.com/hands-game",
-      "Technologies": ["Angular", "CSS GRID", "SASS", "Angular animations"]
+      "Title": "डायनेमिक वेबसाइट",
+      "Description": "हमें Spring Boot, Angular V18 और PostgreSQL 9.3 का उपयोग करके डायनेमिक वेबसाइट बनानी है। प्रत्येक संगठन को विज्ञापन और विकास के लिए एक वेबसाइट की आवश्यकता होती है।",
+      "imgs": ["assets/images/dynamic_Website1.png"],
+      "ghLink": "https://github.com/chavanravikiran/dynamicWebsitePortal",
+      "demoLink": "https://dynamic-web-site-front-end.vercel.app",
+      "Technologies": ["Angular", "Spring Boot", "AWS", "Angular animations", "PostgreSQL"]
     },
     {
-      "Title": "Countries viewer",
-      "Description": "Interfaz que consume una API de países con el que se pueden visualizar lista de países, ver detalles de cada país, filtrar por nombre y región. Ademas cuenta con un dark mode para alternar entre el tema oscuro y el claro.",
-      "imgs": ["assets/images/countries-viewer.png"],
-      "ghLink": "https://github.com/andresjosehr/countries-viewer",
-      "demoLink": "https://proyectos.andresjosehr.com/countries-viewer",
-      "Technologies": ["Angular", "RxJS", "SASS", "API"]
-    },
-    {
-      "Title": "Four card feature section",
-      "Description": "Una sola página que cuenta con un diseño minimalista que enumera 4 características en 4 cards. Se usan animaciones de entrada con angular animations.",
-      "ghLink": "https://github.com/andresjosehr/fourd-card-feature-section",
-      "demoLink": "https://proyectos.andresjosehr.com/four-card-feature-section",
-      "Technologies": ["Angular", "SASS", "CSS GRID"]
-    },
-    {
-      "Title": "Social proof section",
-      "Description": "Proyecto personal de una página diseñada a partir de un diseño hecho en figma. Se utilizó angular para el desarrollo junto con SASS y CSS GRID.",
-      "ghLink": "https://github.com/andresjosehr/social-proof-section",
-      "demoLink": "https://proyectos.andresjosehr.com/social-proof-section",
-      "Technologies": ["Angular", "CSS GRID", "GIT"]
-    },
-    {
-      "Title": "FAQ accordion card",
-      "Description": "Acordeón de preguntas frecuentes con lógica y animnaciones realizadas en Angular.",
-      "ghLink": "https://github.com/andresjosehr/faq-accordion",
-      "demoLink": "https://proyectos.andresjosehr.com/faq-accordion",
-      "Technologies": ["Angular", "CSS GRID", "Angular animations"]
-    },
-    {
-      "Title": "Profile card",
-      "Description": "Simple diseño de una página que cuenta con una carta de perfil con información básica de una persona.",
-      "ghLink": "https://github.com/andresjosehr/profile-card-component",
-      "demoLink": "https://proyectos.andresjosehr.com/profile-card-component",
-      "Technologies": ["Angular", "SASS", "GIT"]
+      "Title": "स्थानीय सेवा खोजक ऐप",
+      "Description": "नागरिकों को नजदीकी स्थानीय सेवाएँ प्रदान करें",
+      "imgs": ["assets/images/localServiceFinder.png"],
+      "ghLink": "https://github.com/chavanravikiran/localServiceFinder-app-frontend",
+      "demoLink": "",
+      "Technologies": ["Angular", "Spring Boot", "AWS", "Angular animations", "PostgreSQL"]
     }
   ],
 
-  "Contact.Pretitle": "Y... ¿Ahora?",
-  "Contact.Title": "¡Salúdame!",
-  "Contact.Content": "Estaré encantado de recibir tu contacto si quieres conversar acerca de nuevas oportunidades. Escríbeme, y te responderé tan pronto como vea tu mensaje.",
-  "Contact.Btn": "Contactame"
+  "Contact.Pretitle": "और... अब?",
+  "Contact.Title": "नमस्ते कहें!",
+  "Contact.Content": "अगर आप नए अवसरों पर चर्चा करना चाहते हैं तो मुझे आपसे सुनकर खुशी होगी। मुझे लिखें, और मैं आपके संदेश को देखते ही उत्तर दूंगा।",
+  "Contact.Btn": "संपर्क करें"
 }
