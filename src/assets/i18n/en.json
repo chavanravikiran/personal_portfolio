@@ -57,12 +57,12 @@
       "Title": "IHLMS 2.0 : MHADA",
       "Description": "Implemented Spring Boot and Java to optimize backend processes, resulting in faster response times and improved overall system efficiency.Implemented Daily Reports and sent to respective stakeholders.Data migration Oracle to PostgreSql.Document Approve or Reject using ML.Create Dynamic Report Add in System and Generate Excel report with respective filters.",
       "imgs": [
-        "assets/images/ihlms2.0/Dashboard_Report.png",
-        "assets/images/ihlms2.0/Extend_Acceptance_Functionality.png",
-        "assets/images/ihlms2.0/Query_Executer_List.png",
-        "assets/images/ihlms2.0/Reports1.png",
-        "assets/images/ihlms2.0/Revert_Functionallity.png",
-        "assets/images/ihlms2.0/Grivence.png"
+        "assets/images/ihlms2.0/Dashboard_Report.png_old",
+        "assets/images/ihlms2.0/Extend_Acceptance_Functionality.png_old",
+        "assets/images/ihlms2.0/Query_Executer_List.png_old",
+        "assets/images/ihlms2.0/Reports1.png_old",
+        "assets/images/ihlms2.0/Revert_Functionallity.png_old",
+        "assets/images/ihlms2.0/Grivence.png_old"
       ],
       "Technologies": ["Spring Boot", "Angular", "Oracel", "Angular Material"]
     },
@@ -70,7 +70,7 @@
       "Title": "PMRDA Post Lottery",
       "Description": "Architected the backend infrastructure using the <span class='underline'>Spring MVC framework</span>, emphasizing scalability and robust functionality to meet the project's requirements.Implemented a PostgreSQL database solution for effective data management, complemented by the utilization of JBOSS server for hosting, ensuring reliable and optimal system performance.",
       "imgs": [
-        "assets/images/PMRDAPostLottery/PMRDA_Post_Lottery1.png"
+        "assets/images/PMRDAPostLottery/PMRDA_Post_Lottery1.png_old"
       ],
       "Technologies": ["Spring MVC", "JSP", "PostgreSQL", "JQuery"]
     },
@@ -78,12 +78,12 @@
       "Title": "Demand And Assessement",
       "Description": "The Demand and Assessment Survey System is an interactive web-based application designed to collect survey responses from citizens using a user-friendly interface integrated with Google Maps. The system enables government agencies, municipalities, or private organizations to conduct large-scale surveys, gather insights, and make data-driven decisions.This platform allows citizens to answer predefined survey questions related to infrastructure development, public services, social initiatives, or community projects. Based on their responses, authorities can analyze demand trends and prioritize initiatives accordingly.",
       "imgs": [
-        "assets/images/demandAndAssessement/Demand_And_Assessment_Screen1.png",
-        "assets/images/demandAndAssessement/Demand_And_Assessment_Screen2.png",
-        "assets/images/demandAndAssessement/Demand_And_Assessment_Screen3.png",
-        "assets/images/demandAndAssessement/Demand_And_Assessment_Screen4.png",
-        "assets/images/demandAndAssessement/Demand_And_Assessment_Screen5.png",
-        "assets/images/demandAndAssessement/Demand_And_Assessment_Screen6.png"
+        "assets/images/demandAndAssessement/Demand_And_Assessment_Screen1.png_old",
+        "assets/images/demandAndAssessement/Demand_And_Assessment_Screen2.png_old",
+        "assets/images/demandAndAssessement/Demand_And_Assessment_Screen3.png_old",
+        "assets/images/demandAndAssessement/Demand_And_Assessment_Screen4.png_old",
+        "assets/images/demandAndAssessement/Demand_And_Assessment_Screen5.png_old",
+        "assets/images/demandAndAssessement/Demand_And_Assessment_Screen6.png_old"
       ],
       "Technologies": ["Jhipster", "Angular", "PostgreSQL", "Prime Flex", "Liquibase"]
     },
@@ -91,9 +91,9 @@
       "Title": "Satara And Parijat FCFS",
       "Description": "Developed and implemented a simplified software program automating every step of the housing FCFS process.Integrated PostgreSQL for secure and efficient data management, ensuring data confidentiality. Enhanced system performance by upgrading interfaces and implementing interest calculation functionality for delayed payments.",
       "imgs": [
-        "assets/images/sataraAndParijat/sataraAndParijatFCFS1.png",
-        "assets/images/sataraAndParijat/sataraAndParijatFCFS2.png",
-        "assets/images/sataraAndParijat/sataraAndParijatFCFS3.png"
+        "assets/images/sataraAndParijat/sataraAndParijatFCFS1.png_old",
+        "assets/images/sataraAndParijat/sataraAndParijatFCFS2.png_old",
+        "assets/images/sataraAndParijat/sataraAndParijatFCFS3.png_old"
       ],
       "Technologies": ["Spring MVC", "JSP", "PostgreSQL", "JQuery"]
     }

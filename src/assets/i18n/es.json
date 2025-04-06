@@ -57,12 +57,12 @@
       "Title": "IHLMS 2.0 : MHADA",
       "Description": "Spring Boot और Java को लागू करके बैकएंड प्रक्रियाओं को अनुकूलित किया, जिससे प्रतिक्रिया समय तेज हुआ और कुल सिस्टम दक्षता में सुधार हुआ। दैनिक रिपोर्ट लागू की और संबंधित हितधारकों को भेजी। डेटा माइग्रेशन Oracle से PostgreSQL में किया। दस्तावेज़ स्वीकृत या अस्वीकृत करने के लिए मशीन लर्निंग का उपयोग किया। सिस्टम में गतिशील रिपोर्ट जोड़ें और संबंधित फ़िल्टर के साथ Excel रिपोर्ट उत्पन्न करें।",
       "imgs": [
-        "assets/images/ihlms2.0/Dashboard_Report.png",
-        "assets/images/ihlms2.0/Extend_Acceptance_Functionality.png",
-        "assets/images/ihlms2.0/Query_Executer_List.png",
-        "assets/images/ihlms2.0/Reports1.png",
-        "assets/images/ihlms2.0/Revert_Functionallity.png",
-        "assets/images/ihlms2.0/Grivence.png"
+        "assets/images/ihlms2.0/Dashboard_Report.png_old",
+        "assets/images/ihlms2.0/Extend_Acceptance_Functionality.png_old",
+        "assets/images/ihlms2.0/Query_Executer_List.png_old",
+        "assets/images/ihlms2.0/Reports1.png_old",
+        "assets/images/ihlms2.0/Revert_Functionallity.png_old",
+        "assets/images/ihlms2.0/Grivence.png_old"
       ],
       "Technologies": ["Spring Boot", "Angular", "Oracle", "Angular Material"]
     },
@@ -70,7 +70,7 @@
       "Title": "पीएमआरडीए पोस्ट लॉटरी",
       "Description": "<span class='underline'>स्प्रिंग एमवीसी फ्रेमवर्क</span> का उपयोग करके बैकएंड इंफ्रास्ट्रक्चर को डिज़ाइन किया, जिससे परियोजना की आवश्यकताओं को पूरा करने के लिए स्केलेबिलिटी और मजबूत कार्यक्षमता पर जोर दिया गया। प्रभावी डेटा प्रबंधन के लिए <span class='underline'>PostgreSQL डेटाबेस</span> समाधान को लागू किया गया, जिसे होस्टिंग के लिए <span class='underline'>JBOSS सर्वर</span> का उपयोग करके पूरा किया गया, जिससे विश्वसनीय और इष्टतम सिस्टम प्रदर्शन सुनिश्चित किया गया।",
       "imgs": [
-        "assets/images/PMRDAPostLottery/PMRDA_Post_Lottery1.png"
+        "assets/images/PMRDAPostLottery/PMRDA_Post_Lottery1.png_old"
       ],
       "Technologies": ["स्प्रिंग एमवीसी", "JSP", "PostgreSQL", "JQuery"]
     },
@@ -78,12 +78,12 @@
       "Title": "डिमांड और असेसमेंट",
       "Description": "डिमांड और असेसमेंट सर्वे सिस्टम एक इंटरैक्टिव वेब-आधारित एप्लिकेशन है, जिसे नागरिकों से सर्वेक्षण प्रतिक्रियाएँ एकत्र करने के लिए डिज़ाइन किया गया है, जिसमें एक उपयोगकर्ता-अनुकूल इंटरफ़ेस <span class='underline'>गूगल मैप्स</span> के साथ एकीकृत है। यह प्रणाली सरकारी एजेंसियों, नगर पालिकाओं, या निजी संगठनों को बड़े पैमाने पर सर्वेक्षण करने, अंतर्दृष्टि एकत्र करने और डेटा-संचालित निर्णय लेने में सक्षम बनाती है। यह प्लेटफ़ॉर्म नागरिकों को पूर्व-निर्धारित सर्वेक्षण प्रश्नों का उत्तर देने की अनुमति देता है, जो बुनियादी ढांचे के विकास, सार्वजनिक सेवाओं, सामाजिक पहलों या सामुदायिक परियोजनाओं से संबंधित होते हैं। उनकी प्रतिक्रियाओं के आधार पर, अधिकारी मांग प्रवृत्तियों का विश्लेषण कर सकते हैं और तदनुसार पहलों को प्राथमिकता दे सकते हैं।",
       "imgs": [
-        "assets/images/demandAndAssessement/Demand_And_Assessment_Screen1.png",
-        "assets/images/demandAndAssessement/Demand_And_Assessment_Screen2.png",
-        "assets/images/demandAndAssessement/Demand_And_Assessment_Screen3.png",
-        "assets/images/demandAndAssessement/Demand_And_Assessment_Screen4.png",
-        "assets/images/demandAndAssessement/Demand_And_Assessment_Screen5.png",
-        "assets/images/demandAndAssessement/Demand_And_Assessment_Screen6.png"
+        "assets/images/demandAndAssessement/Demand_And_Assessment_Screen1.png_old",
+        "assets/images/demandAndAssessement/Demand_And_Assessment_Screen2.png_old",
+        "assets/images/demandAndAssessement/Demand_And_Assessment_Screen3.png_old",
+        "assets/images/demandAndAssessement/Demand_And_Assessment_Screen4.png_old",
+        "assets/images/demandAndAssessement/Demand_And_Assessment_Screen5.png_old",
+        "assets/images/demandAndAssessement/Demand_And_Assessment_Screen6.png_old"
       ],
       "Technologies": ["Jhipster", "Angular", "PostgreSQL", "Prime Flex", "Liquibase"]
     },
@@ -91,9 +91,9 @@
       "Title": "सातारा और पारिजात एफसीएफएस",
       "Description": "आवास एफसीएफएस प्रक्रिया के प्रत्येक चरण को स्वचालित करने वाला एक सरल सॉफ़्टवेयर प्रोग्राम विकसित और कार्यान्वित किया। सुरक्षित और कुशल डेटा प्रबंधन के लिए <span class='underline'>PostgreSQL</span> को एकीकृत किया, जिससे डेटा गोपनीयता सुनिश्चित की जा सके। इंटरफेस को अपग्रेड करके और विलंबित भुगतानों के लिए ब्याज गणना कार्यक्षमता को लागू करके सिस्टम प्रदर्शन को बढ़ाया।",
       "imgs": [
-        "assets/images/sataraAndParijat/sataraAndParijatFCFS1.png",
-        "assets/images/sataraAndParijat/sataraAndParijatFCFS2.png",
-        "assets/images/sataraAndParijat/sataraAndParijatFCFS3.png"
+        "assets/images/sataraAndParijat/sataraAndParijatFCFS1.png_old",
+        "assets/images/sataraAndParijat/sataraAndParijatFCFS2.png_old",
+        "assets/images/sataraAndParijat/sataraAndParijatFCFS3.png_old"
       ],
       "Technologies": ["स्प्रिंग एमवीसी", "JSP", "PostgreSQL", "JQuery"]
     }
