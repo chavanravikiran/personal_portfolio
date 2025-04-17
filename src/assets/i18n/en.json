@@ -64,7 +64,7 @@
         "assets/images/ihlms2.0/Revert_Functionallity.png_old",
         "assets/images/ihlms2.0/Grivence.png_old"
       ],
-      "Technologies": ["Spring Boot", "Angular", "Oracel", "Angular Material"]
+      "Technologies": ["Spring Boot", "Angular", "Oracle", "Angular Material"]
     },
     {
       "Title": "PMRDA Post Lottery",
@@ -103,7 +103,7 @@
   "OtherProjects.Projects": [
     {
       "Title": "Dynamic Website",
-      "Description": "We have to create Dynamic Website using Spring Boot ,Angular V18 and PostgreSQl 9.3.For Every Orinazation need Website for Advetizing and grow up.",
+      "Description": "We have to create Dynamic Website using Spring Boot ,Angular V18 and PostgreSQl 9.3.For Every Orinazation need Website for Advertizing and grow up.",
       "imgs": ["assets/images/dynamic_Website1.png"],
       "ghLink": "https://github.com/chavanravikiran/dynamicWebsitePortal",
       "demoLink": "https://dynamic-web-site-front-end.vercel.app",
