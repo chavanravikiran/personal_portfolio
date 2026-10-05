@@ -26,12 +26,19 @@
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
-        white-space: nowrap;
-        font-size: 60px;
-        font-weight: 600;
-        color: $LightestSlate;
+        justify-content: center;
+        text-align: center;
+        font-size: clamp(36px, 7vw, 60px);
+        font-weight: 800;
+        letter-spacing: -0.03em;
+        line-height: 1.1;
+        background: $Gradient;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
         margin: auto;
         width: fit-content;
+        max-width: 100%;
     }
     .contact-pre-title{
         position: relative;

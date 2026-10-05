@@ -5,6 +5,7 @@ import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 import { TranslateService } from '@ngx-translate/core';
 import { UntypedFormControl } from '@angular/forms';
 import { LanguageService } from 'src/app/services/language/language.service';
+import { ThemeService } from 'src/app/services/theme/theme.service';
 import { ThisReceiver } from '@angular/compiler';
 
 
@@ -40,7 +41,8 @@ export class HeaderComponent implements OnInit {
   constructor(
     private router: Router,
     public analyticsService: AnalyticsService,
-    public languageService: LanguageService
+    public languageService: LanguageService,
+    public themeService: ThemeService
   ) { }
 
   ngOnInit(): void {
@@ -80,5 +82,9 @@ export class HeaderComponent implements OnInit {
 
     changeLanguage(language: string) {
       this.languageFormControl.setValue(language);
+    }
+
+    toggleTheme() {
+      this.themeService.toggleTheme();
     }
 }

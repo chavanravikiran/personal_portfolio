@@ -2,8 +2,9 @@
 @import "./../../../../variables.scss";
 
 .banner{
+    position: relative;
     min-height: 100vh;
-    
+
     .container{
         display: table;
         height: 100vh;
@@ -17,45 +18,65 @@
             }
 
             h1{
-    
-                color: #64ffda;
-                margin: 0 0 20px 3px;
-                font-size: 16px;
+                display: inline-block;
+                color: $Green;
+                background: $GreenOpacity;
+                border: 1px solid $LightestNavy;
+                border-radius: 999px;
+                padding: 6px 14px;
+                margin: 0 0 24px 0;
+                font-size: 14px;
                 font-weight: normal;
                 font-family: $CodeFont;
             }
 
             h2, h3 {
-                font-weight: 600;
-                font-size: 80px;
-                line-height: 1.1;
+                font-weight: 800;
+                font-size: clamp(40px, 8vw, 80px);
+                line-height: 1.05;
+                letter-spacing: -0.03em;
                 margin: 0;
                 font-family: $MainFont;
             }
 
             h2{
                 color: $LightestSlate;
+                background: $Gradient;
+                -webkit-background-clip: text;
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+                padding-bottom: 0.08em;
             }
-            h3{  
+            h3{
                 color: $Slate;
+                font-weight: 700;
+                font-size: clamp(32px, 6.5vw, 68px);
             }
 
             .banner-description{
-                margin-bottom: 70px;
+                margin-bottom: 56px;
             }
 
             p{
-                max-width: 500px;
+                max-width: 540px;
+                font-size: clamp(16px, 2vw, 19px);
+                color: $LightSlate;
             }
 
             .div-btn-banner{
-                height: 43px;
+                min-height: 43px;
             }
         }
-
-       
-    }    
+    }
 }
 
-
-
+@media (max-width: 768px){
+    .banner .container .section-box-banner{
+        .content{
+            margin-top: 70px;
+        }
+        .banner-description{
+            margin-bottom: 40px;
+        }
+    }
+}

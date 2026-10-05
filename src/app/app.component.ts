@@ -3,6 +3,7 @@ import * as AOS from 'aos';
 import { Title, Meta } from '@angular/platform-browser';
 import { TranslateService } from '@ngx-translate/core';
 import {LanguageService} from "src/app/services/language/language.service"
+import { ThemeService } from "src/app/services/theme/theme.service";
 import { Location } from '@angular/common';
 import { Router } from '@angular/router';
 
@@ -19,12 +20,14 @@ export class AppComponent implements OnInit{
     private metaService: Meta,
     private translateService: TranslateService,
     private location: Location,
-    private languageService: LanguageService
+    private languageService: LanguageService,
+    private themeService: ThemeService
     ){
     }
   ngOnInit(): void{
-    
+
     this.languageService.initLanguage()
+    this.themeService.initTheme()
 
 
     this.titleService.setTitle( "Ravikiran Chavan | Frontend Developer" );

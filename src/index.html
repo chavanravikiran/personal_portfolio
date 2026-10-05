@@ -10,17 +10,33 @@
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.linkedin.com/in/ravikiran-chavan-2846b1188/">
+  <meta property="og:url" content="https://www.linkedin.com/in/ravikiran-chavan/">
   <meta property="og:title" content="Ravikiran Chavan | Frontend Developer">
   <meta property="og:description" content="I have 3 Year experience in Software Design.">
-  <meta property="og:image" content="https://www.linkedin.com/in/ravikiran-chavan-2846b1188/">
+  <meta property="og:image" content="https://www.linkedin.com/in/ravikiran-chavan/">
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="manifest" href="manifest.webmanifest">
   
 
-  <meta name="theme-color" content="#1976d2">
+  <meta name="theme-color" content="#0b1120">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Apply saved / system theme before first paint to avoid a flash -->
+  <script>
+    (function () {
+      var theme;
+      try { theme = localStorage.getItem('theme'); } catch (e) {}
+      if (theme !== 'light' && theme !== 'dark') {
+        theme = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+      }
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script>
 </head>
 <body>
   <app-root></app-root>

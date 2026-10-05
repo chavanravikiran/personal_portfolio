@@ -148,16 +148,16 @@
       "Title": "Dental Care Management System",
       "Description": "Full-stack clinic management app (patients, appointments, services, admin) with responsive UI and JWT authentication.",
       "imgs": [],
-      "ghLink": "",
-      "demoLink": "",
+      "ghLink": "https://github.com/chavanravikiran/DentalCare",
+      "demoLink": "https://dental-care-pi-ten.vercel.app/",
       "Technologies": ["Angular", "Angular Material", "Spring Boot", "REST APIs", "PostgreSQL"]
     },
     {
       "Title": "Salon Management and Booking Website",
       "Description": "Responsive salon website with reusable components and backend-ready architecture.",
       "imgs": [],
-      "ghLink": "",
-      "demoLink": "",
+      "ghLink": "https://github.com/chavanravikiran/Salon_Website",
+      "demoLink": "https://salon-website-lyart.vercel.app/",
       "Technologies": ["Angular", "TypeScript", "HTML5", "CSS3", "Spring Boot"]
     }
   ],

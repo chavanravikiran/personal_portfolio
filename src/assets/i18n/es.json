@@ -148,16 +148,16 @@
       "Title": "डेंटल केयर मैनेजमेंट सिस्टम",
       "Description": "उत्तरदायी UI और JWT प्रमाणीकरण के साथ फुल-स्टैक क्लिनिक प्रबंधन ऐप (मरीज़, अपॉइंटमेंट, सेवाएँ, एडमिन)।",
       "imgs": [],
-      "ghLink": "",
-      "demoLink": "",
+      "ghLink": "https://github.com/chavanravikiran/DentalCare",
+      "demoLink": "https://dental-care-pi-ten.vercel.app/",
       "Technologies": ["Angular", "Angular Material", "Spring Boot", "REST APIs", "PostgreSQL"]
     },
     {
       "Title": "सैलून मैनेजमेंट और बुकिंग वेबसाइट",
       "Description": "पुन: प्रयोज्य घटकों और बैकएंड-तैयार आर्किटेक्चर के साथ उत्तरदायी सैलून वेबसाइट।",
       "imgs": [],
-      "ghLink": "",
-      "demoLink": "",
+      "ghLink": "https://github.com/chavanravikiran/Salon_Website",
+      "demoLink": "https://salon-website-lyart.vercel.app/",
       "Technologies": ["Angular", "TypeScript", "HTML5", "CSS3", "Spring Boot"]
     }
   ],

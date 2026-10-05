@@ -4,102 +4,98 @@
 
     .about-description{
         margin-top: 30px;
-        max-width: 480px;
+        max-width: 520px;
+        color: $LightSlate;
     }
 
     .about-img-container{
-        width: 324px;
-        margin: auto;
+        position: relative;
+        width: 100%;
+        max-width: 340px;
+        margin: 30px auto 0;
 
         &:after{
             content: '';
+            position: absolute;
+            inset: 0;
             border: 2px solid $Green;
+            border-radius: $Radius;
+            transform: translate(18px, 18px);
+            transition: transform 0.25s $Ease;
             z-index: 0;
-            display: block;
-            position: relative;
-            width: 394px;
-            height: 305px;
-            border-radius: 3px;
-            bottom: 290px;
-            left: 23px;
+        }
 
+        &:before{
+            content: '';
+            position: absolute;
+            inset: -30px;
+            background: $Gradient;
+            filter: blur(60px);
+            opacity: 0.25;
+            z-index: 0;
         }
 
         img{
+            display: block;
+            width: 100%;
+            height: auto;
+            aspect-ratio: 4 / 5;
+            object-fit: cover;
+            border-radius: $Radius !important;
+            box-shadow: $Shadow;
             z-index: 2;
             position: relative;
+            transition: transform 0.25s $Ease;
+        }
+
+        &:hover{
+            img{
+                transform: translate(-4px, -4px);
+            }
+            &:after{
+                transform: translate(12px, 12px);
+            }
         }
     }
 
     .skills-list{
-        display: grid;
-        grid-template-columns: repeat(2,minmax(140px,200px));
-        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
         padding: 0;
-        margin: 20px 0 0 0;
+        margin: 24px 0 0 0;
         list-style: none;
     }
 
     .skill-element{
         position: relative;
-        margin-bottom: 10px;
-        padding-left: 20px;
+        padding: 6px 14px;
         font-size: 13px;
         font-family: $CodeFont;
         color: $Slate;
+        background: $LightNavy;
+        border: 1px solid $LightestNavy;
+        border-radius: 999px;
+        transition: border-color 0.25s $Ease, transform 0.25s $Ease;
         span{
-          padding-bottom: 5px;
+          padding-bottom: 2px;
         }
 
-        &:before {
-            content: '▹';
-            position: absolute;
-            left: 0;
-            color: $Green;
-            font-size: 14px;
-            line-height: 12px;
+        &:hover{
+            border-color: $Green;
+            transform: translateY(-2px);
         }
     }
 
 }
 
-@media (min-width: 992px) and (max-width: 1300px){
-    .about-img-container{
-        margin-left: auto;
-        margin-right: 0;
-    }
-}
-
-@media (max-width: 500px){
+@media (max-width: 767px){
     .about{
-        .about-img-container img{
-            width: 200px;
-            height: 200px;
-        }
-        .about-img-container:after {
-            width: 200px;
-            height: 200px;
-            bottom: 190px;
-            left: 74px;
-        }
-    }
-}
-
-@media (max-width: 500px){
-    .about{
-
-        .about-img-container {
-            width: 100%;
-
-            img{
-                width: 180px;
-                height: 180px;
-            }
-
-            &:after {
-                display: none;
+        .about-img-container{
+            max-width: 260px;
+            &:after{
+                transform: translate(12px, 12px);
             }
         }
     }
 }
-
