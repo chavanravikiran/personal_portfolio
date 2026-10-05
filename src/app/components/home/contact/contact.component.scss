@@ -2,18 +2,10 @@
 
 .contact{
 
-    margin: 0 auto;
-    max-width: 1000px;
     text-align: center;
     max-width: 600px;
     margin: 0 auto;
-    height: 100vh;
-    display: table;
-
-    .container{
-        display: table-cell;
-        vertical-align: middle;
-    }
+    padding-bottom: 40px;
 
     .contact-title{
 
@@ -67,19 +59,4 @@
         text-align: center;
     }
 
-}
-
-@media (max-width: 768px){
-    
-    .contact{
-        height: 100vh;
-        padding: 0 !important;
-        margin: 0 auto !important;
-        display: table;
-
-        .container{
-            display: table-cell;
-            vertical-align: middle;
-        }
-    }
 }
