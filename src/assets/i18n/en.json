@@ -7,12 +7,12 @@
   "Header.cvName": "ravikiran_chavan_CV.pdf",
 
   "Banner.Pretitle": "Hello! My name is",
-  "Banner.Description": "I have <span class='underline'>3 years of experience</span> developing systems, interfaces, and technological solutions to make the web a better place. I am dedicated to writing and refactoring clean, reusable, and scalable code in <span class='underline'>Spring Boot</span> and <span class='underline'>Angular</span> , applying good practices and development standards.",
+  "Banner.Description": "I have <span class='underline'>{{years}} years of experience</span> developing systems, interfaces, and technological solutions to make the web a better place. I am dedicated to writing and refactoring clean, reusable, and scalable code in <span class='underline'>Spring Boot</span> and <span class='underline'>Angular</span> , applying good practices and development standards.",
   "Banner.ActionBtn": "Say Hi",
 
   "AboutMe.Title": "About Me",
   "AboutMe.Paragraphs": [
-    "In <span class='underline'>3 years of experience</span> I have covered many roles: <span class='underline'>Backend Developer</span>, <span class='underline'>Frontend Developer</span>, and <span class='underline'>Database</span>. I love contributing my knowledge to create new things that help solve problems.",
+    "In <span class='underline'>{{years}} years of experience</span> I have covered many roles: <span class='underline'>Backend Developer</span>, <span class='underline'>Frontend Developer</span>, and <span class='underline'>Database</span>. I love contributing my knowledge to create new things that help solve problems.",
     "My capabilities also include implementing system improvements, optimizing sites, standardizing patterns, and suggesting and executing ideas that add value to the project I am working on.",
     "I also program things for my personal use, whether for hobby or utility.",
     "Some of the technologies I have trained and worked with include (but are not limited to):"
@@ -21,9 +21,27 @@
   "Experience.Title": "Experience",
   "Experience.Jobs": [
     {
+      "Tab": "Hind Industec Pvt Ltd.",
+      "Title": "Java Full Stack Developer",
+      "Date": "Jan 2026 - Till Date",
+      "StartDate": "2026-01",
+      "EndDate": "",
+      "Description": [
+        "Developed Spring Boot backend services and Angular HMI applications for real-time monitoring, control, and visualization of coke oven plant operations.",
+        "Designed RESTful APIs to process live production data, reducing HMI response time by 30%.",
+        "Built real-time dashboards and historical trend modules for temperature, pressure, current, force, and machine status, cutting manual analysis effort by 50%.",
+        "Implemented business logic for machine operations, alarms, interlocks, and production workflows, improving system reliability by 20%.",
+        "Integrated PLC, IoT, and sensor data with backend services and used WebSocket to stream live plant data to Angular dashboards.",
+        "Optimized SQL queries and database indexing, improving large-scale data retrieval performance by 45%.",
+        "Key Project: Fluenta Coke Oven (Client: JSW / Jindal) - Web-based HMI for real-time plant data, machine status, alarms, interlocks, and historical trends connected to PLCs."
+      ]
+    },
+    {
       "Tab": "Probity Soft Pvt Ltd.",
       "Title": "Fullstack Developer",
-      "Date": "May 2022 - Till Date",
+      "Date": "May 2022 - Jan 2026",
+      "StartDate": "2022-05",
+      "EndDate": "2026-01",
       "Description": [
         "Full Stack Development (Spring Boot + Angular)",
         "Design, develop, and maintain RESTful APIs and microservices.",
@@ -38,6 +56,9 @@
       "Tab": "Star Engg.Pvt Ltd.",
       "Title": "Purchase",
       "Date": "May 2020-May 2022",
+      "StartDate": "2020-05",
+      "EndDate": "2022-05",
+      "CountInExperience": false,
       "Description": [
         "Purchace Consumable,Plastic Product",
         "Strategic Sourcing & Procurement",
@@ -53,6 +74,12 @@
   "FeatureProjects.Title": "My Projects",
   "FeatureProjects.Label": "Highlighted Project",
   "FeatureProjects.Projects": [
+    {
+      "Title": "Fluenta Coke Oven : JSW / Jindal",
+      "Description": "Web-based <span class='underline'>HMI application</span> for real-time monitoring, control, and visualization of coke oven plant operations, connected to PLCs. Built Spring Boot services and RESTful APIs to process live production data, reducing HMI response time by 30%. Developed real-time dashboards and historical trend modules for temperature, pressure, current, force, and machine status, cutting manual analysis effort by 50%. Implemented business logic for machine operations, alarms, interlocks, and production workflows, improving system reliability by 20%. Streamed live PLC, IoT, and sensor data to Angular dashboards using <span class='underline'>WebSocket</span>, and optimized SQL queries and indexing to improve data retrieval performance by 45%.",
+      "imgs": ["assets/images/fluentaCokeOven/fluenta_coke_oven_3d.svg"],
+      "Technologies": ["Java 8/17", "Spring Boot", "Spring Data JPA", "Microservices", "Angular", "Oracle", "WebSocket", "Spring AI", "Docker", "Jenkins", "Jira"]
+    },
     {
       "Title": "IHLMS 2.0 : MHADA",
       "Description": "Implemented Spring Boot and Java to optimize backend processes, resulting in faster response times and improved overall system efficiency.Implemented Daily Reports and sent to respective stakeholders.Data migration Oracle to PostgreSql.Document Approve or Reject using ML.Create Dynamic Report Add in System and Generate Excel report with respective filters.",
@@ -116,6 +143,22 @@
       "ghLink": "https://github.com/chavanravikiran/localServiceFinder-app-frontend",
       "demoLink": "",
       "Technologies": ["Angular", "Spring Boot", "AWS", "Angular animations", "PostgreSQL"]
+    },
+    {
+      "Title": "Dental Care Management System",
+      "Description": "Full-stack clinic management app (patients, appointments, services, admin) with responsive UI and JWT authentication.",
+      "imgs": [],
+      "ghLink": "",
+      "demoLink": "",
+      "Technologies": ["Angular", "Angular Material", "Spring Boot", "REST APIs", "PostgreSQL"]
+    },
+    {
+      "Title": "Salon Management and Booking Website",
+      "Description": "Responsive salon website with reusable components and backend-ready architecture.",
+      "imgs": [],
+      "ghLink": "",
+      "demoLink": "",
+      "Technologies": ["Angular", "TypeScript", "HTML5", "CSS3", "Spring Boot"]
     }
   ],
 

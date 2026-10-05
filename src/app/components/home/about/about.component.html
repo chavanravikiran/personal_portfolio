@@ -9,7 +9,7 @@
             <div class="row">
                 <div class="col-12 col-md-6 mb-4 mb-md-0">
                     <div class="about-description">
-                        <p *ngFor='let text of "AboutMe.Paragraphs" | translate' [innerHTML]="text" data-aos="fade-up" data-aos-duration="1000">
+                        <p *ngFor='let text of "AboutMe.Paragraphs" | translate' [innerHTML]="text | experience" data-aos="fade-up" data-aos-duration="1000">
                         </p>
                         <ul class="skills-list" data-aos="fade-up">
                             <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span class="underline">Spring Boot </span></li>
@@ -17,7 +17,10 @@
                             <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span class="underline">HTML &amp; (S)CSS </span></li>
                             <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span class="underline">PostgreSQL </span></li>
                             <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span class="underline">Oracel </span></li>
+                            <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span class="underline">Spring AI </span></li>
                             <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span class="underline">Jhipster </span></li>
+                            <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span class="underline">Docker </span></li>
+                            <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span class="underline">Jenkins </span></li>
                         </ul>
                     </div>
                 </div>
