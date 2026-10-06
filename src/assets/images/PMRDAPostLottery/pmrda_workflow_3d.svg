@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750">
+<defs>
+  <radialGradient id="bg" cx="55%" cy="45%" r="75%"><stop offset="0" stop-color="#173058"/><stop offset="1" stop-color="#0a192f"/></radialGradient>
+  <linearGradient id="gMetal" x1="0" x2="1"><stop offset="0" stop-color="#6c7a90"/><stop offset="0.45" stop-color="#55647a"/><stop offset="1" stop-color="#2c374a"/></linearGradient>
+  <linearGradient id="gGold" x1="0" x2="1"><stop offset="0" stop-color="#ffd166"/><stop offset="0.5" stop-color="#f4b400"/><stop offset="1" stop-color="#9c6b00"/></linearGradient>
+  <linearGradient id="gArea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#64ffda" stop-opacity="0.35"/><stop offset="1" stop-color="#64ffda" stop-opacity="0"/></linearGradient>
+  <radialGradient id="gHeat"><stop offset="0" stop-color="#ff7b00" stop-opacity="0.55"/><stop offset="1" stop-color="#ff7b00" stop-opacity="0"/></radialGradient>
+  <radialGradient id="gHeatTeal"><stop offset="0" stop-color="#64ffda" stop-opacity="0.45"/><stop offset="1" stop-color="#64ffda" stop-opacity="0"/></radialGradient>
+  <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+  <filter id="glow" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="750" fill="url(#bg)"/>
+<polygon points="360.9,383 811.2,643 811.2,625 360.9,365" fill="#172944"/>
+<polygon points="1140.3,453 811.2,643 811.2,625 1140.3,435" fill="#101d30"/>
+<polygon points="690,175 1140.3,435 811.2,625 360.9,365" fill="#1d3557"/>
+<polyline points="690,175 360.9,365" stroke="#64ffda" fill="none" stroke-opacity="0.07"/>
+<polyline points="714.2,189 385.2,379" stroke="#64ffda" fill="none" stroke-opacity="0.07"/>
+<polyline points="738.5,203 409.4,393" stroke="#64ffda" fill="none" stroke-opacity="0.07"/>
+<polyline points="762.7,217 433.7,407" stroke="#64ffda" fill="none" stroke-opacity="0.07"/>
+<polyline points="787,231 457.9,421" stroke="#64ffda" fill="none" stroke-opacity="0.07"/>
+<polyline points="811.2,245 482.2,435" stroke="#64ffda" fill="none" stroke-opacity="0.07"/>
+<polyline points="835.5,259 506.4,449" stroke="#64ffda" fill="none" stroke-opacity="0.07"/>
+<polyline points="859.7,273 530.7,463" stroke="#64ffda" fill="none" stroke-opacity="0.07"/>
+<polyline points="884,287 554.9,477" stroke="#64ffda" fill="none" stroke-opacity="0.07"/>
+<polyline points="908.2,301 579.1,491" stroke="#64ffda" fill="none" stroke-opacity="0.07"/>
+<polyline points="932.5,315 603.4,505" stroke="#64ffda" fill="none" stroke-opacity="0.07"/>
+<polyline points="956.7,329 627.6,519" stroke="#64ffda" fill="none" stroke-opacity="0.07"/>
+<polyline points="981,343 651.9,533" stroke="#64ffda" fill="none" stroke-opacity="0.07"/>
+<polyline points="1005.2,357 676.1,547" stroke="#64ffda" fill="none" stroke-opacity="0.07"/>
+<polyline points="1029.5,371 700.4,561" stroke="#64ffda" fill="none" stroke-opacity="0.07"/>
+<polyline points="1053.7,385 724.6,575" stroke="#64ffda" fill="none" stroke-opacity="0.07"/>
+<polyline points="1078,399 748.9,589" stroke="#64ffda" fill="none" stroke-opacity="0.07"/>
+<polyline points="1102.2,413 773.1,603" stroke="#64ffda" fill="none" stroke-opacity="0.07"/>
+<polyline points="1126.5,427 797.4,617" stroke="#64ffda" fill="none" stroke-opacity="0.07"/>
+<polyline points="690,175 1140.3,435" stroke="#64ffda" fill="none" stroke-opacity="0.07"/>
+<polyline points="665.8,189 1116.1,449" stroke="#64ffda" fill="none" stroke-opacity="0.07"/>
+<polyline points="641.5,203 1091.8,463" stroke="#64ffda" fill="none" stroke-opacity="0.07"/>
+<polyline points="617.3,217 1067.6,477" stroke="#64ffda" fill="none" stroke-opacity="0.07"/>
+<polyline points="593,231 1043.3,491" stroke="#64ffda" fill="none" stroke-opacity="0.07"/>
+<polyline points="568.8,245 1019.1,505" stroke="#64ffda" fill="none" stroke-opacity="0.07"/>
+<polyline points="544.5,259 994.8,519" stroke="#64ffda" fill="none" stroke-opacity="0.07"/>
+<polyline points="520.3,273 970.6,533" stroke="#64ffda" fill="none" stroke-opacity="0.07"/>
+<polyline points="496,287 946.3,547" stroke="#64ffda" fill="none" stroke-opacity="0.07"/>
+<polyline points="471.8,301 922.1,561" stroke="#64ffda" fill="none" stroke-opacity="0.07"/>
+<polyline points="447.5,315 897.8,575" stroke="#64ffda" fill="none" stroke-opacity="0.07"/>
+<polyline points="423.3,329 873.6,589" stroke="#64ffda" fill="none" stroke-opacity="0.07"/>
+<polyline points="399,343 849.3,603" stroke="#64ffda" fill="none" stroke-opacity="0.07"/>
+<polyline points="374.8,357 825.1,617" stroke="#64ffda" fill="none" stroke-opacity="0.07"/>
+<polyline points="672.7,254.4 811.2,334.4" stroke="#64ffda" fill="none" stroke-width="5" stroke-opacity="0.45" stroke-linecap="round"/>
+<polyline points="672.7,254.4 811.2,334.4" stroke="#64ffda" fill="none" stroke-width="1.5" stroke-dasharray="2 10" filter="url(#glow)"/>
+<polyline points="811.2,334.4 967.1,424.4" stroke="#64ffda" fill="none" stroke-width="5" stroke-opacity="0.45" stroke-linecap="round"/>
+<polyline points="811.2,334.4 967.1,424.4" stroke="#64ffda" fill="none" stroke-width="1.5" stroke-dasharray="2 10" filter="url(#glow)"/>
+<polyline points="967.1,424.4 802.6,519.4" stroke="#64ffda" fill="none" stroke-width="5" stroke-opacity="0.45" stroke-linecap="round"/>
+<polyline points="967.1,424.4 802.6,519.4" stroke="#64ffda" fill="none" stroke-width="1.5" stroke-dasharray="2 10" filter="url(#glow)"/>
+<polyline points="802.6,519.4 620.7,414.4" stroke="#5b6b80" fill="none" stroke-width="3" stroke-opacity="0.6" stroke-dasharray="6 7"/>
+<ellipse cx="958.5" cy="520" rx="7" ry="3.5" fill="#000" opacity="0.3"/>
+<rect x="957" y="508" width="3" height="12" fill="#5c4033"/>
+<circle cx="958.5" cy="503" r="9" fill="#2a9d8f"/>
+<circle cx="956" cy="500" r="4" fill="#52c7b8" opacity="0.6"/>
+<ellipse cx="802.6" cy="430" rx="6.3" ry="3.2" fill="#000" opacity="0.3"/>
+<rect x="801.1" y="419.2" width="3" height="10.8" fill="#5c4033"/>
+<circle cx="802.6" cy="414.7" r="8.1" fill="#2a9d8f"/>
+<circle cx="800.3" cy="412" r="3.6" fill="#52c7b8" opacity="0.6"/>
+<ellipse cx="542.8" cy="290" rx="7" ry="3.5" fill="#000" opacity="0.3"/>
+<rect x="541.3" y="278" width="3" height="12" fill="#5c4033"/>
+<circle cx="542.8" cy="273" r="9" fill="#2a9d8f"/>
+<circle cx="540.3" cy="270" r="4" fill="#52c7b8" opacity="0.6"/>
+<ellipse cx="421.5" cy="370" rx="7.7" ry="3.9" fill="#000" opacity="0.3"/>
+<rect x="420" y="356.8" width="3" height="13.2" fill="#5c4033"/>
+<circle cx="421.5" cy="351.3" r="9.9" fill="#2a9d8f"/>
+<circle cx="418.8" cy="348" r="4.4" fill="#52c7b8" opacity="0.6"/>
+<ellipse cx="811.2" cy="605" rx="7" ry="3.5" fill="#000" opacity="0.3"/>
+<rect x="809.7" y="593" width="3" height="12" fill="#5c4033"/>
+<circle cx="811.2" cy="588" r="9" fill="#2a9d8f"/>
+<circle cx="808.7" cy="585" r="4" fill="#52c7b8" opacity="0.6"/>
+<polygon points="603.4,255 672.7,295 672.7,283 603.4,243" fill="#167a65"/>
+<polygon points="742,255 672.7,295 672.7,283 742,243" fill="#0f5546"/>
+<polygon points="672.7,203 742,243 672.7,283 603.4,243" fill="#1f9e83"/>
+<polygon points="672.7,207.6 733.3,242.6 672.7,277.6 612.1,242.6" fill="#0a192f" opacity="0.25"/>
+<polygon points="665.8,243 672.7,247 672.7,227 665.8,223" fill="#303b4b"/>
+<polygon points="679.6,243 672.7,247 672.7,227 679.6,223" fill="#222a35"/>
+<polygon points="672.7,219 679.6,223 672.7,227 665.8,223" fill="#3d4c60"/>
+<polygon points="644.1,209.5 696.1,239.5 696.1,195.5 644.1,165.5" fill="#112240"/>
+<polygon points="701.3,236.5 696.1,239.5 696.1,195.5 701.3,192.5" fill="#0d1b33"/>
+<polygon points="649.3,162.5 701.3,192.5 696.1,195.5 644.1,165.5" fill="#233554"/>
+<text transform="matrix(0.8660254 0.5 0 1 648.4 177)" font-family="Consolas, monospace" font-size="9" fill="#64ffda" font-weight="bold">RESULT</text>
+<polygon points="648.4,191 691.7,216 691.7,210 648.4,185" fill="#3d4c60"/>
+<polygon points="648.4,200 691.7,225 691.7,219 648.4,194" fill="#ffb703"/>
+<polygon points="648.4,209 691.7,234 691.7,228 648.4,203" fill="#3d4c60"/>
+<polygon points="742,335 811.2,375 811.2,363 742,323" fill="#167a65"/>
+<polygon points="880.5,335 811.2,375 811.2,363 880.5,323" fill="#0f5546"/>
+<polygon points="811.2,283 880.5,323 811.2,363 742,323" fill="#1f9e83"/>
+<polygon points="811.2,287.6 871.9,322.6 811.2,357.6 750.6,322.6" fill="#0a192f" opacity="0.25"/>
+<polygon points="791.3,316.5 829.4,338.5 829.4,280.5 791.3,258.5" fill="#000" opacity="0.25"/>
+<polygon points="790.5,309 828.6,331 828.6,273 790.5,251" fill="#e8eef5"/>
+<polygon points="790.5,265 828.6,287 828.6,273 790.5,251" fill="#1f6feb"/>
+<polygon points="797.4,284 821.6,298 821.6,295 797.4,281" fill="#8d99ae"/>
+<polygon points="797.4,295 809.5,302 809.5,299 797.4,292" fill="#8d99ae"/>
+<polygon points="797.4,306 821.6,320 821.6,317 797.4,303" fill="#8d99ae"/>
+<polygon points="797.4,317 809.5,324 809.5,321 797.4,314" fill="#8d99ae"/>
+<circle cx="818.2" cy="303" r="15" fill="#64ffda" fill-opacity="0.18" stroke="#ccd6f6" stroke-width="4"/>
+<line x1="828.2" y1="314" x2="840.2" y2="327" stroke="#ccd6f6" stroke-width="6" stroke-linecap="round"/>
+<path d="M811.2,303 l5,6 l10,-12" fill="none" stroke="#2ecc71" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="534.1,415 620.7,465 620.7,453 534.1,403" fill="#303b4b"/>
+<polygon points="707.3,415 620.7,465 620.7,453 707.3,403" fill="#222a35"/>
+<polygon points="620.7,353 707.3,403 620.7,453 534.1,403" fill="#3d4c60"/>
+<polygon points="620.7,357.6 698.7,402.6 620.7,447.6 542.8,402.6" fill="#0a192f" opacity="0.25"/>
+<polygon points="572.2,401 624.2,431 624.2,391 572.2,361" fill="#c9d1dc"/>
+<polygon points="669.2,405 624.2,431 624.2,391 669.2,365" fill="#9aa5b5"/>
+<polygon points="617.3,335 669.2,365 624.2,391 572.2,361" fill="#e8eef5"/>
+<polygon points="593,413 603.4,419 603.4,394.2 593,388.2" fill="#7a4b3a"/>
+<polygon points="578.5,388.6 587.8,394 587.8,380 578.5,374.6" fill="#ffd166"/>
+<polygon points="637.7,407.2 655.7,396.8 655.7,382.8 637.7,393.2" fill="#ffd166" opacity="0.8"/>
+<polygon points="669.2,365 624.2,391 646.7,356" fill="#b5bcc6"/>
+<polygon points="567,363 624.2,396 649.3,357.5 592.1,324.5" fill="#c74634"/>
+<g filter="url(#glow)"><circle cx="658.8" cy="347" r="8" fill="none" stroke="#ffd166" stroke-width="4"/><line x1="666.8" y1="347" x2="688.8" y2="347" stroke="#ffd166" stroke-width="4" stroke-linecap="round"/><line x1="682.8" y1="347" x2="682.8" y2="354" stroke="#ffd166" stroke-width="4"/><line x1="688.8" y1="347" x2="688.8" y2="356" stroke="#ffd166" stroke-width="4"/></g>
+<polygon points="897.8,425 967.1,465 967.1,453 897.8,413" fill="#167a65"/>
+<polygon points="1036.4,425 967.1,465 967.1,453 1036.4,413" fill="#0f5546"/>
+<polygon points="967.1,373 1036.4,413 967.1,453 897.8,413" fill="#1f9e83"/>
+<polygon points="967.1,377.6 1027.7,412.6 967.1,447.6 906.5,412.6" fill="#0a192f" opacity="0.25"/>
+<polygon points="908.2,423 937.7,440 937.7,436 908.2,419" fill="#1f5fc4"/>
+<polygon points="977.5,417 937.7,440 937.7,436 977.5,413" fill="#174a99"/>
+<polygon points="948.1,396 977.5,413 937.7,436 908.2,419" fill="#3b82f6"/>
+<polygon points="923.8,413.7 946.3,426.7 941.1,429.7 918.6,416.7" fill="#ffd166" opacity="0.9"/>
+<path d="M975.5,411 L975.5,417 A15.9,9.2 0 0 0 1007.3,417 L1007.3,411 Z" fill="url(#gGold)"/>
+<ellipse cx="991.4" cy="411" rx="15.9" ry="9.2" fill="#ffd166"/>
+<path d="M975.5,405 L975.5,411 A15.9,9.2 0 0 0 1007.3,411 L1007.3,405 Z" fill="url(#gGold)"/>
+<ellipse cx="991.4" cy="405" rx="15.9" ry="9.2" fill="#ffd166"/>
+<path d="M975.5,399 L975.5,405 A15.9,9.2 0 0 0 1007.3,405 L1007.3,399 Z" fill="url(#gGold)"/>
+<ellipse cx="991.4" cy="399" rx="15.9" ry="9.2" fill="#ffd166"/>
+<path d="M975.5,393 L975.5,399 A15.9,9.2 0 0 0 1007.3,399 L1007.3,393 Z" fill="url(#gGold)"/>
+<ellipse cx="991.4" cy="393" rx="15.9" ry="9.2" fill="#ffd166"/>
+<text x="991.4" y="397" font-family="Consolas, monospace" font-size="11" fill="#8f6600" text-anchor="middle" font-weight="bold">₹</text>
+<ellipse cx="802.6" cy="520" rx="84" ry="48" fill="url(#gHeat)"/>
+<polygon points="733.3,520 802.6,560 802.6,548 733.3,508" fill="#c98f00"/>
+<polygon points="871.9,520 802.6,560 802.6,548 871.9,508" fill="#8f6600"/>
+<polygon points="802.6,468 871.9,508 802.6,548 733.3,508" fill="#ffb703"/>
+<polygon points="802.6,472.6 863.2,507.6 802.6,542.6 742,507.6" fill="#0a192f" opacity="0.25"/>
+<polygon points="784.4,502.5 822.5,524.5 822.5,466.5 784.4,444.5" fill="#000" opacity="0.25"/>
+<polygon points="783.5,495 821.6,517 821.6,459 783.5,437" fill="#e8eef5"/>
+<polygon points="783.5,451 821.6,473 821.6,459 783.5,437" fill="#7c3aed"/>
+<polygon points="790.5,470 814.7,484 814.7,481 790.5,467" fill="#8d99ae"/>
+<polygon points="790.5,481 802.6,488 802.6,485 790.5,478" fill="#8d99ae"/>
+<polygon points="790.5,492 814.7,506 814.7,503 790.5,489" fill="#8d99ae"/>
+<polygon points="790.5,503 802.6,510 802.6,507 790.5,500" fill="#8d99ae"/>
+<text transform="matrix(0.8660254 0.5 0 1 787.9 450.5)" font-family="Consolas, monospace" font-size="9" fill="#ffffff" font-weight="bold">e-REG</text>
+<circle cx="811.2" cy="495" r="10" fill="none" stroke="#7c3aed" stroke-width="2.5"/><circle cx="811.2" cy="495" r="5" fill="#7c3aed" opacity="0.7"/>
+<line x1="789.9" y1="495" x2="811.9" y2="467" stroke="#ffb703" stroke-width="4" stroke-linecap="round"/>
+<rect x="630.8" y="139" width="83.7" height="22" rx="11" fill="#0d1b33" fill-opacity="0.92" stroke="#64ffda" stroke-opacity="0.9"/>
+<text x="672.7" y="154" font-family="Consolas, monospace" font-size="12" fill="#64ffda" text-anchor="middle" font-weight="bold">01 RESULT</text>
+<rect x="769.4" y="223" width="83.7" height="22" rx="11" fill="#0d1b33" fill-opacity="0.92" stroke="#64ffda" stroke-opacity="0.9"/>
+<text x="811.2" y="238" font-family="Consolas, monospace" font-size="12" fill="#64ffda" text-anchor="middle" font-weight="bold">02 VERIFY</text>
+<rect x="564.3" y="273" width="112.9" height="22" rx="11" fill="#0d1b33" fill-opacity="0.92" stroke="#5b6b80" stroke-opacity="0.6"/>
+<text x="620.7" y="288" font-family="Consolas, monospace" font-size="12" fill="#8892b0" text-anchor="middle" font-weight="bold">05 POSSESSION</text>
+<rect x="921.6" y="345" width="91" height="22" rx="11" fill="#0d1b33" fill-opacity="0.92" stroke="#64ffda" stroke-opacity="0.9"/>
+<text x="967.1" y="360" font-family="Consolas, monospace" font-size="12" fill="#64ffda" text-anchor="middle" font-weight="bold">03 PAYMENT</text>
+<rect x="753.4" y="408" width="98.3" height="22" rx="11" fill="#0d1b33" fill-opacity="0.92" stroke="#ffb703" stroke-opacity="0.9"/>
+<text x="802.6" y="423" font-family="Consolas, monospace" font-size="12" fill="#ffb703" text-anchor="middle" font-weight="bold">04 REGISTER</text>
+<g>
+  <rect x="40" y="36" width="290" height="248" rx="12" fill="#112240" fill-opacity="0.92" stroke="#64ffda" stroke-opacity="0.5"/>
+  <rect x="40" y="36" width="290" height="38" rx="12" fill="#0d1b33"/>
+  <circle cx="60" cy="55" r="5" fill="#2ecc71" filter="url(#glow)"/>
+  <text x="74" y="60" font-family="Consolas, monospace" font-size="14" fill="#64ffda" font-weight="bold">PMRDA · ALLOTTEE</text>
+  <text x="58" y="96" font-family="Consolas, monospace" font-size="12" fill="#8892b0">Winner ID PMRDA/L-0457</text>
+  <line x1="66" y1="118" x2="66" y2="130" stroke="#64ffda" stroke-width="2"/>
+  <circle cx="66" cy="112" r="7" fill="#1f9e83"/><path d="M62.5,112 l2.5,3 l5,-6" fill="none" stroke="#0a192f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="84" y="116" font-family="Consolas, monospace" font-size="12" fill="#ccd6f6">Lottery Result</text>
+  <text x="316" y="116" font-family="Consolas, monospace" font-size="10" fill="#64ffda" text-anchor="end" opacity="0.85">Done</text>
+  <line x1="66" y1="142" x2="66" y2="154" stroke="#64ffda" stroke-width="2"/>
+  <circle cx="66" cy="136" r="7" fill="#1f9e83"/><path d="M62.5,136 l2.5,3 l5,-6" fill="none" stroke="#0a192f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="84" y="140" font-family="Consolas, monospace" font-size="12" fill="#ccd6f6">Result Verification</text>
+  <text x="316" y="140" font-family="Consolas, monospace" font-size="10" fill="#64ffda" text-anchor="end" opacity="0.85">Done</text>
+  <line x1="66" y1="166" x2="66" y2="178" stroke="#64ffda" stroke-width="2"/>
+  <circle cx="66" cy="160" r="7" fill="#1f9e83"/><path d="M62.5,160 l2.5,3 l5,-6" fill="none" stroke="#0a192f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="84" y="164" font-family="Consolas, monospace" font-size="12" fill="#ccd6f6">Payment</text>
+  <text x="316" y="164" font-family="Consolas, monospace" font-size="10" fill="#64ffda" text-anchor="end" opacity="0.85">Done</text>
+  <line x1="66" y1="190" x2="66" y2="202" stroke="#233554" stroke-width="2"/>
+  <circle cx="66" cy="184" r="11" fill="#ffb703" opacity="0.25"/><circle cx="66" cy="184" r="6" fill="#ffb703" filter="url(#glow)"/>
+  <text x="84" y="188" font-family="Consolas, monospace" font-size="12" fill="#ccd6f6" font-weight="bold">Registration</text>
+  <text x="316" y="188" font-family="Consolas, monospace" font-size="10" fill="#ffb703" text-anchor="end" opacity="0.85">In progress</text>
+  <circle cx="66" cy="208" r="6" fill="#112240" stroke="#5b6b80" stroke-width="2"/>
+  <text x="84" y="212" font-family="Consolas, monospace" font-size="12" fill="#8892b0">Possession</text>
+  <text x="316" y="212" font-family="Consolas, monospace" font-size="10" fill="#5b6b80" text-anchor="end" opacity="0.85">Pending</text>
+  <rect x="58" y="234" width="256" height="8" rx="4" fill="#233554"/>
+  <rect x="58" y="234" width="153.6" height="8" rx="4" fill="#64ffda"/>
+  <text x="58" y="260" font-family="Consolas, monospace" font-size="11" fill="#8892b0">3/5 stages complete</text>
+  <text x="314" y="260" font-family="Consolas, monospace" font-size="11" fill="#64ffda" text-anchor="end">60%</text>
+</g>
+<path d="M330,184 C450,184 742.6,342 802.6,406" fill="none" stroke="#ffb703" stroke-width="1.5" stroke-dasharray="5 6" stroke-opacity="0.8"/>
+
+<text x="1160" y="714" font-family="Segoe UI, Arial, sans-serif" font-size="26" fill="#ccd6f6" text-anchor="end" font-weight="600">PMRDA Post Lottery</text>
+<text x="1160" y="736" font-family="Consolas, monospace" font-size="13" fill="#64ffda" text-anchor="end">Result Verification → Payment → Registration → Possession</text>
+</svg>

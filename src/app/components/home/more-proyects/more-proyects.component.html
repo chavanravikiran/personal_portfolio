@@ -9,29 +9,33 @@
             <div class="mt-4">
                 <div class="row p-0">
 
-                    <div *ngFor='let project of "OtherProjects.Projects" | translate; let i = index'
-                      (click)="redirect(project['demoLink'], $event)"
+                    <div *ngFor='let project of "OtherProjects.Projects" | translate'
                      class="col-12 col-md-6 col-lg-6 col-xl-4 proyect-col" data-aos="fade-up" data-aos-duration="1000">
-                        <div class="more-proyect-box">
+                        <div class="more-proyect-box" role="button" tabindex="0"
+                             [attr.aria-label]="project.Title"
+                             (click)="openDetails(project, details)"
+                             (keydown.enter)="openDetails(project, details)">
                             <div class="row w-100 text-left m-0 p-0">
                                 <div class="col-6 p-0">
                                     <i class="far fa-folder-open folder-icon"></i>
                                 </div>
                                 <div class="col-6 d-flex p-0 justify-content-end">
-                                    <a (click)='analyticsService.sendAnalyticEvent("click_pokemonlist_external_link", "proyects", "click")' style='color: inherit' [href]="project['demoLink']" target="_blank"><i id="demoLink" class="ml-3 fas fa-external-link-alt"></i></a>
-                                    <a (click)='analyticsService.sendAnalyticEvent("click_pokemonlist_github", "proyects", "click")' style='color: inherit' [href]="project['ghLink']" target="_blank"><i id="ghLink" class="ml-4 fab fa-github"></i></a>
+                                    <a *ngIf="project['demoLink']" (click)='$event.stopPropagation(); analyticsService.sendAnalyticEvent("click_pokemonlist_external_link", "proyects", "click")' style='color: inherit' [href]="project['demoLink']" target="_blank"><i class="ml-3 fas fa-external-link-alt"></i></a>
+                                    <a *ngIf="project['ghLink']" (click)='$event.stopPropagation(); analyticsService.sendAnalyticEvent("click_pokemonlist_github", "proyects", "click")' style='color: inherit' [href]="project['ghLink']" target="_blank"><i class="ml-4 fab fa-github"></i></a>
                                 </div>
                                 <h5 class="other-proyect-title mt-4">{{project.Title}}</h5>
                                 <p class="other-proyect-description">
-                                    {{project.Description}}
+                                    {{project.Summary || project.Description}}
                                 </p>
                             </div>
-                            <div>
+                            <div class="w-100">
                                 <ul class="more-proyects-skills">
-                                    <li *ngFor='let technology of project.Technologies'>
+                                    <li *ngFor='let technology of project.Technologies | slice:0:3'>
                                       <span class="underline">{{technology}}</span>
                                     </li>
+                                    <li *ngIf="project.Technologies?.length > 3">+{{project.Technologies.length - 3}}</li>
                                 </ul>
+                                <span class="view-details">{{"OtherProjects.ViewDetails" | translate}} <i class="fas fa-arrow-right"></i></span>
                             </div>
                         </div>
                     </div>
@@ -44,3 +48,36 @@
         </div>
     </div>
 </section>
+
+<ng-template #details let-modal>
+    <div class="project-modal-body">
+        <button type="button" class="project-modal-close" [attr.aria-label]='"OtherProjects.Close" | translate' (click)="modal.dismiss()">
+            <i class="fas fa-times"></i>
+        </button>
+        <i class="far fa-folder-open project-modal-icon"></i>
+        <h4 class="project-modal-title">{{selected?.Title}}</h4>
+        <p class="project-modal-description">{{selected?.Description}}</p>
+
+        <ng-container *ngIf="selected?.Highlights?.length">
+            <h6 class="project-modal-subtitle">{{"OtherProjects.Highlights" | translate}}</h6>
+            <ul class="project-modal-highlights">
+                <li *ngFor="let item of selected.Highlights">{{item}}</li>
+            </ul>
+        </ng-container>
+
+        <ul class="project-modal-tech">
+            <li *ngFor="let technology of selected?.Technologies">{{technology}}</li>
+        </ul>
+
+        <div class="project-modal-actions" *ngIf="selected?.demoLink || selected?.ghLink">
+            <a *ngIf="selected.demoLink" class="main-btn" [href]="selected.demoLink" target="_blank"
+               (click)='analyticsService.sendAnalyticEvent("click_pokemonlist_external_link", "proyects", "click")'>
+                <i class="fas fa-external-link-alt mr-2"></i>{{"OtherProjects.Demo" | translate}}
+            </a>
+            <a *ngIf="selected.ghLink" class="main-btn" [href]="selected.ghLink" target="_blank"
+               (click)='analyticsService.sendAnalyticEvent("click_pokemonlist_github", "proyects", "click")'>
+                <i class="fab fa-github mr-2"></i>{{"OtherProjects.Code" | translate}}
+            </a>
+        </div>
+    </div>
+</ng-template>

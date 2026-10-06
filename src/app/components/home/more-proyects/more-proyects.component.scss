@@ -74,6 +74,33 @@
             .other-proyect-description{
                 font-size: 17px;
                 color: $LightSlate;
+                margin-bottom: 0;
+                display: -webkit-box;
+                -webkit-line-clamp: 3;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+            }
+
+            &:focus-visible{
+                outline: 2px solid $Green;
+                outline-offset: 2px;
+            }
+
+            .view-details{
+                display: inline-block;
+                margin-top: 16px;
+                font-family: $CodeFont;
+                font-size: 13px;
+                color: $Green;
+                i{
+                    font-size: 11px;
+                    margin-left: 4px;
+                    transition: transform 0.25s $Ease;
+                }
+            }
+
+            &:hover .view-details i{
+                transform: translateX(4px);
             }
 
             .more-proyects-skills{
@@ -112,6 +139,123 @@
 
 }
 
+
+// The details popup is rendered by NgbModal at the end of <body>, outside this component
+::ng-deep .project-modal{
+    // ng-bootstrap 16 puts its backdrop at z-index 1055 (Bootstrap 5), above Bootstrap 4's .modal (1050)
+    &.modal{
+        z-index: 1060;
+    }
+
+    .modal-content{
+        background-color: $LightNavy;
+        border: 1px solid $LightestNavy;
+        border-radius: $Radius;
+        box-shadow: $ShadowHover;
+        overflow: hidden;
+        &:before{
+            content: '';
+            display: block;
+            height: 3px;
+            background: $Gradient;
+        }
+    }
+
+    .project-modal-body{
+        position: relative;
+        padding: 2rem 2rem 2.25rem;
+        color: $LightSlate;
+    }
+
+    .project-modal-close{
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        border: 1px solid $LightestNavy;
+        background: transparent;
+        color: $Slate;
+        transition: all 0.25s $Ease;
+        &:hover, &:focus-visible{
+            color: $Green;
+            border-color: $Green;
+            outline: none;
+        }
+    }
+
+    .project-modal-icon{
+        font-size: 36px;
+        color: $Green;
+    }
+
+    .project-modal-title{
+        margin: 16px 0 12px;
+        padding-right: 40px;
+        font-size: 24px;
+        font-weight: 700;
+        color: $LightestSlate;
+    }
+
+    .project-modal-description{
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    .project-modal-subtitle{
+        margin: 20px 0 10px;
+        font-family: $CodeFont;
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: $Green;
+    }
+
+    .project-modal-highlights{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        li{
+            position: relative;
+            padding-left: 22px;
+            margin-bottom: 8px;
+            font-size: 15px;
+            line-height: 1.6;
+            &:before{
+                content: '▹';
+                position: absolute;
+                left: 0;
+                color: $Green;
+            }
+        }
+    }
+
+    .project-modal-tech{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        padding: 0;
+        margin: 22px 0 0;
+        list-style: none;
+        li{
+            padding: 4px 12px;
+            font-family: $CodeFont;
+            font-size: 12px;
+            color: $Slate;
+            background: $Navy;
+            border: 1px solid $LightestNavy;
+            border-radius: 999px;
+        }
+    }
+
+    .project-modal-actions{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 26px;
+    }
+}
 
 @media(max-width: 1300px){
     .more-proyects{
