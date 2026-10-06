@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, TemplateRef } from '@angular/core';
 import { Router, NavigationEnd } from '@angular/router';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 
 @Component({
@@ -9,8 +10,11 @@ import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 })
 export class MoreProyectsComponent implements OnInit {
 
+  selected: any;
+
   constructor(
     private router: Router,
+    private modalService: NgbModal,
     public analyticsService: AnalyticsService
     ) { }
 
@@ -22,12 +26,10 @@ export class MoreProyectsComponent implements OnInit {
             window.scrollTo(0, 0)
         });
     }
-    redirect(route: string, event) {
-      const id = event.target.id;
-      if(id=='demoLink' || id=='ghLink'){
-        return
-      }
-      window.open(route, '_blank');
+    openDetails(project: any, template: TemplateRef<any>) {
+      this.selected = project;
+      this.analyticsService.sendAnalyticEvent("click_project_details", "proyects", "click");
+      this.modalService.open(template, { centered: true, size: 'lg', scrollable: true, windowClass: 'project-modal' });
     }
 
 }

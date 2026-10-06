@@ -7,7 +7,7 @@
                 </h3>
             </div>
             <div class="row">
-                <div class="col-12 col-md-6 mb-4 mb-md-0">
+                <div class="col-12">
                     <div class="about-description">
                         <p *ngFor='let text of "AboutMe.Paragraphs" | translate' [innerHTML]="text | experience" data-aos="fade-up" data-aos-duration="1000">
                         </p>
@@ -24,12 +24,6 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 mt-4 mt-md-0 text-center" data-aos="fade-up" data-aos-duration="1000">
-                    <div class="about-img-container">
-                        <img (click)='analyticsService.sendAnalyticEvent("click_image", "about", "image")' class="rounded" width="400" height="550" src="assets/images/me4.jpeg" alt="Ravikiran Chavan">
-                    </div>
-                </div>
-
             </div>
         </div>
     </div>

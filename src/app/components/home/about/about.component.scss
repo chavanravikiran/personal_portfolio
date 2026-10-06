@@ -4,58 +4,8 @@
 
     .about-description{
         margin-top: 30px;
-        max-width: 520px;
+        max-width: 760px;
         color: $LightSlate;
-    }
-
-    .about-img-container{
-        position: relative;
-        width: 100%;
-        max-width: 340px;
-        margin: 30px auto 0;
-
-        &:after{
-            content: '';
-            position: absolute;
-            inset: 0;
-            border: 2px solid $Green;
-            border-radius: $Radius;
-            transform: translate(18px, 18px);
-            transition: transform 0.25s $Ease;
-            z-index: 0;
-        }
-
-        &:before{
-            content: '';
-            position: absolute;
-            inset: -30px;
-            background: $Gradient;
-            filter: blur(60px);
-            opacity: 0.25;
-            z-index: 0;
-        }
-
-        img{
-            display: block;
-            width: 100%;
-            height: auto;
-            aspect-ratio: 4 / 5;
-            object-fit: cover;
-            border-radius: $Radius !important;
-            box-shadow: $Shadow;
-            z-index: 2;
-            position: relative;
-            transition: transform 0.25s $Ease;
-        }
-
-        &:hover{
-            img{
-                transform: translate(-4px, -4px);
-            }
-            &:after{
-                transform: translate(12px, 12px);
-            }
-        }
     }
 
     .skills-list{
@@ -87,15 +37,4 @@
         }
     }
 
-}
-
-@media (max-width: 767px){
-    .about{
-        .about-img-container{
-            max-width: 260px;
-            &:after{
-                transform: translate(12px, 12px);
-            }
-        }
-    }
 }
