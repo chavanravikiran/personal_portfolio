@@ -1,6 +1,7 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { trigger, query, stagger, animate, style, transition } from '@angular/animations'
 import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
+import { VisitorCounterService } from 'src/app/services/visitor-counter/visitor-counter.service';
 
 @Component({
   selector: 'app-footer',
@@ -24,11 +25,15 @@ import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 })
 export class FooterComponent implements OnInit {
 
+  visits: number | null = null;
+
   constructor(
-    public analyticsService: AnalyticsService
+    public analyticsService: AnalyticsService,
+    private visitorCounter: VisitorCounterService
   ) { }
 
   ngOnInit(): void {
+    this.visitorCounter.getVisits().subscribe(count => this.visits = count);
   }
 
 }

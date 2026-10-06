@@ -54,7 +54,7 @@
                 color: $Green;
             }
 
-            .fa-external-link-alt, .fa-github{
+            .fa-external-link-alt, .fa-github, .fa-file-pdf{
                 font-size: 18px;
                 color: $Slate;
                 transition: color 0.25s $Ease;
@@ -165,17 +165,29 @@
         position: relative;
         padding: 2rem 2rem 2.25rem;
         color: $LightSlate;
+        overflow-y: auto;
+        scrollbar-width: thin;
+        scrollbar-color: $LightestNavy transparent;
+
+        &::-webkit-scrollbar{
+            width: 8px;
+        }
+        &::-webkit-scrollbar-thumb{
+            background: $LightestNavy;
+            border-radius: 4px;
+        }
     }
 
     .project-modal-close{
         position: absolute;
         top: 1rem;
-        right: 1rem;
+        right: 1.25rem;
+        z-index: 2;
+        background: $LightNavy;
         width: 36px;
         height: 36px;
         border-radius: 50%;
         border: 1px solid $LightestNavy;
-        background: transparent;
         color: $Slate;
         transition: all 0.25s $Ease;
         &:hover, &:focus-visible{

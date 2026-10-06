@@ -110,6 +110,7 @@
   "OtherProjects.ViewDetails": "View details",
   "OtherProjects.Highlights": "Highlights",
   "OtherProjects.Demo": "Live demo",
+  "OtherProjects.Document": "Download documentation",
   "OtherProjects.Code": "Source code",
   "OtherProjects.Close": "Close",
   "OtherProjects.Projects": [
@@ -128,6 +129,8 @@
       ],
       "imgs": [],
       "ghLink": "https://github.com/chavanravikiran/HRMS-Portal",
+      "docLink": "assets/docs/HRMS-Portal-Guide.pdf",
+      "docName": "HRMS-Portal-Guide.pdf",
       "demoLink": "",
       "Technologies": ["Angular", "Angular Material", "Spring Boot", "REST APIs", "PostgreSQL", "Geofencing"]
     },
@@ -196,6 +199,8 @@
       "Technologies": ["Angular", "Spring Boot", "AWS", "Angular animations", "PostgreSQL"]
     }
   ],
+
+  "Footer.Visits": "visits",
 
   "Contact.Pretitle": "And... Now?",
   "Contact.Title": "Say Hi!",
