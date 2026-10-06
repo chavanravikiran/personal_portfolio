@@ -20,6 +20,7 @@
                                     <i class="far fa-folder-open folder-icon"></i>
                                 </div>
                                 <div class="col-6 d-flex p-0 justify-content-end">
+                                    <a *ngIf="project['docLink']" (click)='$event.stopPropagation(); analyticsService.sendAnalyticEvent("click_project_document", "proyects", "click")' style='color: inherit' [href]="project['docLink']" [attr.download]="project['docName'] || ''" [attr.aria-label]='"OtherProjects.Document" | translate' [attr.title]='"OtherProjects.Document" | translate'><i class="ml-3 far fa-file-pdf"></i></a>
                                     <a *ngIf="project['demoLink']" (click)='$event.stopPropagation(); analyticsService.sendAnalyticEvent("click_pokemonlist_external_link", "proyects", "click")' style='color: inherit' [href]="project['demoLink']" target="_blank"><i class="ml-3 fas fa-external-link-alt"></i></a>
                                     <a *ngIf="project['ghLink']" (click)='$event.stopPropagation(); analyticsService.sendAnalyticEvent("click_pokemonlist_github", "proyects", "click")' style='color: inherit' [href]="project['ghLink']" target="_blank"><i class="ml-4 fab fa-github"></i></a>
                                 </div>
@@ -50,10 +51,11 @@
 </section>
 
 <ng-template #details let-modal>
-    <div class="project-modal-body">
-        <button type="button" class="project-modal-close" [attr.aria-label]='"OtherProjects.Close" | translate' (click)="modal.dismiss()">
-            <i class="fas fa-times"></i>
-        </button>
+    <!-- Close button sits outside the scrolling body so it stays visible -->
+    <button type="button" class="project-modal-close" [attr.aria-label]='"OtherProjects.Close" | translate' (click)="modal.dismiss()">
+        <i class="fas fa-times"></i>
+    </button>
+    <div class="modal-body project-modal-body">
         <i class="far fa-folder-open project-modal-icon"></i>
         <h4 class="project-modal-title">{{selected?.Title}}</h4>
         <p class="project-modal-description">{{selected?.Description}}</p>
@@ -69,7 +71,7 @@
             <li *ngFor="let technology of selected?.Technologies">{{technology}}</li>
         </ul>
 
-        <div class="project-modal-actions" *ngIf="selected?.demoLink || selected?.ghLink">
+        <div class="project-modal-actions" *ngIf="selected?.demoLink || selected?.ghLink || selected?.docLink">
             <a *ngIf="selected.demoLink" class="main-btn" [href]="selected.demoLink" target="_blank"
                (click)='analyticsService.sendAnalyticEvent("click_pokemonlist_external_link", "proyects", "click")'>
                 <i class="fas fa-external-link-alt mr-2"></i>{{"OtherProjects.Demo" | translate}}
@@ -77,6 +79,10 @@
             <a *ngIf="selected.ghLink" class="main-btn" [href]="selected.ghLink" target="_blank"
                (click)='analyticsService.sendAnalyticEvent("click_pokemonlist_github", "proyects", "click")'>
                 <i class="fab fa-github mr-2"></i>{{"OtherProjects.Code" | translate}}
+            </a>
+            <a *ngIf="selected.docLink" class="main-btn" [href]="selected.docLink" [attr.download]="selected.docName || ''"
+               (click)='analyticsService.sendAnalyticEvent("click_project_document", "proyects", "click")'>
+                <i class="fas fa-file-download mr-2"></i>{{"OtherProjects.Document" | translate}}
             </a>
         </div>
     </div>
