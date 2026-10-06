@@ -93,5 +93,25 @@ footer{
                 color: $Green;
             }
         }
+
+        .visitor-count{
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            margin-top: 14px;
+            padding: 6px 12px;
+            color: $Slate;
+            border: 1px solid $LightestNavy;
+            border-radius: 999px;
+
+            i{
+                color: $Green;
+            }
+
+            .visitor-number{
+                color: $Green;
+                font-weight: 600;
+            }
+        }
     }
 }
