@@ -30,7 +30,7 @@ export class AppComponent implements OnInit{
     this.themeService.initTheme()
 
 
-    this.titleService.setTitle( "Ravikiran Chavan | Frontend Developer" );
+    this.titleService.setTitle( "Ravikiran Chavan | Software Developer" );
 
     this.metaService.addTags([
       {name: 'keywords', content: 'Software, developer,Frontend' },
