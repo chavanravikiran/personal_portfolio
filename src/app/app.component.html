@@ -1,7 +1,7 @@
+<div class="scroll-progress" aria-hidden="true"><span #progressBar></span></div>
 <app-header></app-header>
-<!-- <div>
-    <h1> {{"HELLO" | translate}}</h1>
-    <h2>Hola</h2>
-</div> -->
 <router-outlet></router-outlet>
 <app-footer></app-footer>
+<button #backToTop type="button" class="back-to-top" aria-label="Back to top" (click)="scrollToTop()">
+    <i class="fas fa-arrow-up"></i>
+</button>

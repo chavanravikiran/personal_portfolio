@@ -11,17 +11,18 @@
                     <div class="about-description">
                         <p *ngFor='let text of "AboutMe.Paragraphs" | translate' [innerHTML]="text | experience" data-aos="fade-up" data-aos-duration="1000">
                         </p>
-                        <ul class="skills-list" data-aos="fade-up">
-                            <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span class="underline">Spring Boot </span></li>
-                            <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span class="underline">Angular </span></li>
-                            <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span class="underline">HTML &amp; (S)CSS </span></li>
-                            <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span class="underline">PostgreSQL </span></li>
-                            <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span class="underline">Oracel </span></li>
-                            <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span class="underline">Spring AI </span></li>
-                            <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span class="underline">Jhipster </span></li>
-                            <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span class="underline">Docker </span></li>
-                            <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span class="underline">Jenkins </span></li>
-                        </ul>
+                    </div>
+                    <div class="skill-groups">
+                        <div class="skill-group" *ngFor="let group of skillGroups; let i = index"
+                             data-aos="fade-up" data-aos-duration="800" [attr.data-aos-delay]="i * 100">
+                            <div class="skill-group-head">
+                                <span class="skill-group-icon"><i [class]="group.icon"></i></span>
+                                <h4>{{group.titleKey | translate}}</h4>
+                            </div>
+                            <ul class="skills-list">
+                                <li class="skill-element" *ngFor="let skill of group.skills">{{skill}}</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>

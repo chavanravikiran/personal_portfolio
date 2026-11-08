@@ -1,14 +1,20 @@
 <section class="section banner">
+    <div class="banner-bg" aria-hidden="true">
+        <span class="blob blob-1"></span>
+        <span class="blob blob-2"></span>
+        <span class="grid"></span>
+    </div>
     <div [@bannerTrigger] class="container">
         <div class="section-box-banner">
             <div class="content">
                 <div>
-                    <!-- <h1>Hola, mi nombre es</h1> -->
-                    <h1>{{"Banner.Pretitle" | translate}}</h1>
+                    <h1><span class="status-dot"></span>{{"Banner.Pretitle" | translate}}</h1>
                 </div>
                 <div class='banner-title'>
                     <h2>Ravikiran Chavan</h2>
-                    <h3>Software Developer</h3>
+                    <h3 class="typed-line">
+                        <span #typed class="typed-text">Software Developer</span><span class="cursor" aria-hidden="true"></span>
+                    </h3>
                 </div>
                 <div class='banner-description'>
                     <p [innerHTML]='"Banner.Description" | translate | experience' class="mt-4"></p>
@@ -18,7 +24,25 @@
                 <a (click)='analyticsService.sendAnalyticEvent("click_send_mail", "banner", "email")' href="mailto:ravikiranchavan97@gmail.com" target="_black" class="main-btn">
                     {{"Banner.ActionBtn" | translate}}
                 </a>
+                <a (click)='scrollTo("proyects"); analyticsService.sendAnalyticEvent("click_view_work", "banner", "click")' class="main-btn main-btn-solid" role="button" tabindex="0" (keydown.enter)='scrollTo("proyects")'>
+                    {{"Banner.ProjectsBtn" | translate}} <i class="fas fa-arrow-down ml-2"></i>
+                </a>
+                <div class="banner-socials">
+                    <a href="https://github.com/chavanravikiran" target="_blank" rel="noopener" aria-label="GitHub"
+                       (click)='analyticsService.sendAnalyticEvent("click_github", "banner", "github")'><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ravikiran-chavan/" target="_blank" rel="noopener" aria-label="LinkedIn"
+                       (click)='analyticsService.sendAnalyticEvent("click_linkedin", "banner", "linkedin")'><i class="fab fa-linkedin-in"></i></a>
+                    <a href="mailto:ravikiranchavan97@gmail.com" aria-label="Email"
+                       (click)='analyticsService.sendAnalyticEvent("click_send_mail", "banner", "email")'><i class="far fa-envelope"></i></a>
+                </div>
             </div>
+
+            <ul class="banner-stats" *ngIf="stats.length">
+                <li *ngFor="let stat of stats">
+                    <span class="stat-value">{{stat.value}}{{stat.suffix}}</span>
+                    <span class="stat-label">{{stat.label}}</span>
+                </li>
+            </ul>
         </div>
     </div>
 </section>
