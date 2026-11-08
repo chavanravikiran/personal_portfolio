@@ -7,16 +7,26 @@
   "Header.cvName": "ravikiran_chavan_CV.pdf",
 
   "Banner.Pretitle": "Hello! My name is",
-  "Banner.Description": "I have <span class='underline'>{{years}} years of experience</span> developing systems, interfaces, and technological solutions to make the web a better place. I am dedicated to writing and refactoring clean, reusable, and scalable code in <span class='underline'>Spring Boot</span> and <span class='underline'>Angular</span> , applying good practices and development standards.",
+  "Banner.Description": "I have <span class='underline'>{{experience}} of experience</span> developing systems, interfaces, and technological solutions to make the web a better place. I am dedicated to writing and refactoring clean, reusable, and scalable code in <span class='underline'>Spring Boot</span> and <span class='underline'>Angular</span> , applying good practices and development standards.",
   "Banner.ActionBtn": "Say Hi",
+  "Banner.ProjectsBtn": "View my work",
+  "Banner.Roles": ["Java Full Stack Developer", "Spring Boot Developer", "Angular Developer", "Problem Solver"],
+  "Banner.Stats.Experience": "Years of experience",
+  "Banner.Stats.Projects": "Projects built",
+  "Banner.Stats.Companies": "Companies",
+  "Banner.Stats.Technologies": "Technologies used",
 
   "AboutMe.Title": "About Me",
   "AboutMe.Paragraphs": [
-    "In <span class='underline'>{{years}} years of experience</span> I have covered many roles: <span class='underline'>Backend Developer</span>, <span class='underline'>Frontend Developer</span>, and <span class='underline'>Database</span>. I love contributing my knowledge to create new things that help solve problems.",
+    "In <span class='underline'>{{experience}} of experience</span> I have covered many roles: <span class='underline'>Backend Developer</span>, <span class='underline'>Frontend Developer</span>, and <span class='underline'>Database</span>. I love contributing my knowledge to create new things that help solve problems.",
     "My capabilities also include implementing system improvements, optimizing sites, standardizing patterns, and suggesting and executing ideas that add value to the project I am working on.",
     "I also program things for my personal use, whether for hobby or utility.",
     "Some of the technologies I have trained and worked with include (but are not limited to):"
   ],
+  "AboutMe.Skills.Backend": "Backend",
+  "AboutMe.Skills.Frontend": "Frontend",
+  "AboutMe.Skills.Database": "Database",
+  "AboutMe.Skills.DevOps": "DevOps & Tools",
 
   "Experience.Title": "Experience",
   "Experience.Jobs": [
@@ -114,6 +124,24 @@
   "OtherProjects.Code": "Source code",
   "OtherProjects.Close": "Close",
   "OtherProjects.Projects": [
+    {
+      "Title": "FreshFold - Laundry Website & Business Management",
+      "Summary": "Laundry, ironing and dry cleaning website with an admin panel for invoices, expenses and P&L.",
+      "Description": "A full-stack application for a laundry business. The public website is built to win calls and branch visits, with services, pricing, branches, testimonials, FAQ and contact, and Call, WhatsApp and Directions buttons everywhere. The admin panel manages all website content, branches, services and pricing, testimonial approval, invoices, payments and expenses, plus a dashboard and Profit & Loss reports.",
+      "Highlights": [
+        "Public website with services, pricing, branches, testimonials, FAQ and contact, plus Call, WhatsApp and Directions buttons",
+        "Admin panel to manage all website content, branches, services and pricing without code changes",
+        "Invoices, payments and expenses with PDF generation, a dashboard and Profit & Loss reports",
+        "Five roles (Super Admin, Admin, Branch Manager, Accountant, Content Manager) enforced by the API with JWT, @PreAuthorize and branch scoping",
+        "Testimonial approval workflow and custom roles created from the admin panel",
+        "Image, video and PDF uploads stored in Vercel Blob or any S3-compatible store, with private expense receipts",
+        "Swagger API docs, Docker Compose setup, and 55 backend and frontend tests"
+      ],
+      "imgs": [],
+      "ghLink": "https://github.com/chavanravikiran/Freshfold",
+      "demoLink": "https://freshfold-frontend-chavanravikirans-projects.vercel.app/",
+      "Technologies": ["Angular", "Angular Material", "Spring Boot", "Spring Security", "JWT", "PostgreSQL", "Neon", "Vercel Blob", "Docker", "ECharts"]
+    },
     {
       "Title": "HRMS Portal For Organization",
       "Summary": "Role-based HR portal for employees, geofenced attendance, leave and announcements.",

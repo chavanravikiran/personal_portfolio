@@ -1,0 +1,60 @@
+@import "./../variables.scss";
+
+.scroll-progress{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    z-index: 1100;
+    pointer-events: none;
+
+    span{
+        display: block;
+        height: 100%;
+        width: 100%;
+        background: $Gradient;
+        transform: scaleX(0);
+        transform-origin: left center;
+        box-shadow: 0 0 10px var(--accent);
+    }
+}
+
+.back-to-top{
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    z-index: 1000;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    border: 1px solid $Green;
+    background: $LightNavy;
+    color: $Green;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: $Shadow;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(16px);
+    transition: opacity 0.3s $Ease, transform 0.3s $Ease, visibility 0.3s, background 0.25s $Ease, color 0.25s $Ease;
+
+    &.visible{
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+    }
+
+    &:hover, &:focus-visible{
+        color: var(--on-accent);
+        background: $Gradient;
+        border-color: transparent;
+    }
+}
+
+@media (max-width: 768px){
+    .back-to-top{
+        right: 16px;
+        bottom: 16px;
+    }
+}

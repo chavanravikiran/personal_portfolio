@@ -7,16 +7,26 @@
   "Header.cvName": "ravikiran_chavan_CV.pdf",
 
   "Banner.Pretitle": "नमस्ते! मेरा नाम है",
-  "Banner.Description": "मुझे <span class='underline'>{{years}} वर्षों का अनुभव</span> है सिस्टम, इंटरफेस और तकनीकी समाधान विकसित करने में, ताकि वेब को एक बेहतर स्थान बनाया जा सके। मैं <span class='underline'>Spring Boot</span> और <span class='underline'>Angular</span> में स्वच्छ, पुन: प्रयोज्य और स्केलेबल कोड लिखने और पुन: संरचित करने के लिए समर्पित हूं, अच्छे अभ्यासों और विकास मानकों को लागू करता हूं।",
+  "Banner.Description": "मुझे <span class='underline'>{{experience}} का अनुभव</span> है सिस्टम, इंटरफेस और तकनीकी समाधान विकसित करने में, ताकि वेब को एक बेहतर स्थान बनाया जा सके। मैं <span class='underline'>Spring Boot</span> और <span class='underline'>Angular</span> में स्वच्छ, पुन: प्रयोज्य और स्केलेबल कोड लिखने और पुन: संरचित करने के लिए समर्पित हूं, अच्छे अभ्यासों और विकास मानकों को लागू करता हूं।",
   "Banner.ActionBtn": "नमस्ते कहें",
+  "Banner.ProjectsBtn": "मेरा काम देखें",
+  "Banner.Roles": ["Java Full Stack Developer", "Spring Boot Developer", "Angular Developer", "Problem Solver"],
+  "Banner.Stats.Experience": "वर्षों का अनुभव",
+  "Banner.Stats.Projects": "बनाए गए प्रोजेक्ट्स",
+  "Banner.Stats.Companies": "कंपनियाँ",
+  "Banner.Stats.Technologies": "उपयोग की गई तकनीकें",
 
   "AboutMe.Title": "मेरे बारे में",
   "AboutMe.Paragraphs": [
-    "मेरे <span class='underline'>{{years}} वर्षों के अनुभव</span> में, मैंने कई भूमिकाएँ निभाई हैं: <span class='underline'>बैकएंड डेवलपर</span>, <span class='underline'>फ्रंटएंड डेवलपर</span>, और <span class='underline'>डेटाबेस</span> विशेषज्ञ। मुझे नई चीजें बनाने में योगदान करना पसंद है जो समस्याओं को हल करने में मदद करती हैं।",
+    "मेरे <span class='underline'>{{experience}} के अनुभव</span> में, मैंने कई भूमिकाएँ निभाई हैं: <span class='underline'>बैकएंड डेवलपर</span>, <span class='underline'>फ्रंटएंड डेवलपर</span>, और <span class='underline'>डेटाबेस</span> विशेषज्ञ। मुझे नई चीजें बनाने में योगदान करना पसंद है जो समस्याओं को हल करने में मदद करती हैं।",
     "मेरी क्षमताओं में सिस्टम सुधार लागू करना, साइटों का अनुकूलन करना, मानकों को मानकीकृत करना, और ऐसे विचारों का सुझाव देना और निष्पादित करना शामिल है जो मेरे द्वारा काम किए जा रहे प्रोजेक्ट में मूल्य जोड़ते हैं।",
     "मैं अपने व्यक्तिगत उपयोग के लिए भी चीजें प्रोग्राम करता हूं, चाहे वह शौक के लिए हो या उपयोगिता के लिए।",
     "कुछ तकनीकों जिनमें मैंने प्रशिक्षण प्राप्त किया है और काम किया है उनमें शामिल हैं (लेकिन इन्हीं तक सीमित नहीं हैं):"
   ],
+  "AboutMe.Skills.Backend": "बैकएंड",
+  "AboutMe.Skills.Frontend": "फ्रंटएंड",
+  "AboutMe.Skills.Database": "डेटाबेस",
+  "AboutMe.Skills.DevOps": "DevOps और टूल्स",
 
   "Experience.Title": "अनुभव",
   "Experience.Jobs": [
@@ -114,6 +124,24 @@
   "OtherProjects.Code": "सोर्स कोड",
   "OtherProjects.Close": "बंद करें",
   "OtherProjects.Projects": [
+    {
+      "Title": "FreshFold - Laundry Website & Business Management",
+      "Summary": "लॉन्ड्री, इस्त्री और ड्राई क्लीनिंग वेबसाइट, साथ में इनवॉइस, खर्च और लाभ-हानि के लिए एडमिन पैनल।",
+      "Description": "एक लॉन्ड्री व्यवसाय के लिए फुल-स्टैक एप्लिकेशन। सार्वजनिक वेबसाइट ग्राहकों के कॉल और ब्रांच विज़िट बढ़ाने के लिए बनाई गई है, जिसमें सेवाएँ, कीमतें, ब्रांच, प्रशंसापत्र, FAQ और संपर्क हैं, और हर जगह Call, WhatsApp और Directions बटन हैं। एडमिन पैनल से पूरी वेबसाइट सामग्री, ब्रांच, सेवाएँ और कीमतें, प्रशंसापत्र अनुमोदन, इनवॉइस, भुगतान और खर्च, साथ ही डैशबोर्ड और लाभ-हानि रिपोर्ट प्रबंधित होती हैं।",
+      "Highlights": [
+        "सेवाएँ, कीमतें, ब्रांच, प्रशंसापत्र, FAQ और संपर्क वाली सार्वजनिक वेबसाइट, साथ में Call, WhatsApp और Directions बटन",
+        "कोड बदले बिना पूरी वेबसाइट सामग्री, ब्रांच, सेवाएँ और कीमतें प्रबंधित करने के लिए एडमिन पैनल",
+        "PDF बनाने वाले इनवॉइस, भुगतान और खर्च, डैशबोर्ड और लाभ-हानि रिपोर्ट",
+        "पाँच रोल (Super Admin, Admin, Branch Manager, Accountant, Content Manager), जिन्हें API में JWT, @PreAuthorize और ब्रांच स्कोपिंग से लागू किया गया है",
+        "प्रशंसापत्र अनुमोदन प्रक्रिया और एडमिन पैनल से कस्टम रोल बनाने की सुविधा",
+        "इमेज, वीडियो और PDF अपलोड Vercel Blob या किसी भी S3-संगत स्टोर में, निजी खर्च रसीदों के साथ",
+        "Swagger API डॉक्यूमेंटेशन, Docker Compose सेटअप, और बैकएंड व फ्रंटएंड के 55 टेस्ट"
+      ],
+      "imgs": [],
+      "ghLink": "https://github.com/chavanravikiran/Freshfold",
+      "demoLink": "https://freshfold-frontend-chavanravikirans-projects.vercel.app/",
+      "Technologies": ["Angular", "Angular Material", "Spring Boot", "Spring Security", "JWT", "PostgreSQL", "Neon", "Vercel Blob", "Docker", "ECharts"]
+    },
     {
       "Title": "HRMS Portal For Organization",
       "Summary": "कर्मचारी, जियोफेंस्ड उपस्थिति, अवकाश और घोषणाओं के लिए रोल-आधारित HR पोर्टल।",
